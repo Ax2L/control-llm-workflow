@@ -1,0 +1,40 @@
+[DATA_NODE.llm_request]
+storage_type = "json"
+scope = "GLOBAL:SCOPE"
+
+[TASK.llm_task_request]
+
+outputs = [ "llm_response:SECTION" ]
+function = "functions.collect_tasks:function"
+skippable = "False:bool"
+inputs = [ "llm_any_prompt:SECTION" ]
+
+
+
+
+
+[DATA_NODE.llm_response]
+storage_type = "json"
+scope = "GLOBAL:SCOPE"
+
+
+
+
+
+
+
+
+
+
+
+
+
+[SCENARIO.llm_request_instruction]
+additional_data_nodes = [ ]
+tasks = [ "llm_task_request:SECTION" ]
+
+[DATA_NODE.llm_any_prompt]
+storage_type = "json"
+
+default_path = "any_prompt.json"
+scope = "GLOBAL:SCOPE"

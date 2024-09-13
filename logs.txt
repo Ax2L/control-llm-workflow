@@ -1,0 +1,7 @@
+hello
+[2024-09-13 21:51:16][Taipy][INFO] Loading configuration. Filename: 'config.toml'
+[2024-09-13 21:51:16][Taipy][INFO] Configuration 'config.toml' successfully loaded.
+[2024-09-13 21:51:16][Taipy][INFO] Development mode: Clean all entities of version 4f96775c-9029-42d1-9599-7ff12c6a49b5
+[2024-09-13 21:51:16][Taipy][INFO] Blocking configuration update.
+thank you :D
+[2024-09-13 21:51:16][Taipy][INFO] job JOB_llm_task_request_67075469-7f40-4809-ac60-c30169086567 is completed.

@@ -1,0 +1,52 @@
+{
+    "categories": {
+        "LLMInstructionRequests": [
+            {
+                "id": "LLMIR001",
+                "prompt": "Generate a summary for the following text:",
+                "description": "Summarizes the given text."
+            },
+            {
+                "id": "LLMIR002",
+                "prompt": "Translate the following text to French:",
+                "description": "Translates text from English to French."
+            }
+        ],
+        "DataConverters": [
+            {
+                "id": "DC001",
+                "prompt": "Convert the following CSV data to JSON format:",
+                "description": "Converts CSV data to JSON."
+            },
+            {
+                "id": "DC002",
+                "prompt": "Load values from the following JSON file:",
+                "description": "Loads values from a JSON file."
+            }
+        ],
+        "DocumentEnhancers": [
+            {
+                "id": "DE001",
+                "prompt": "Add comments to the following code:",
+                "description": "Adds comments to the provided code."
+            },
+            {
+                "id": "DE002",
+                "prompt": "Fix cosmetic issues in the following document:",
+                "description": "Fixes formatting and cosmetic issues in a document."
+            }
+        ],
+        "BenchmarkModels": [
+            {
+                "id": "BM001",
+                "prompt": "Run benchmark tests on the following model:",
+                "description": "Runs a series of benchmark tests on a given model."
+            },
+            {
+                "id": "BM002",
+                "prompt": "Generate a performance report for the following model:",
+                "description": "Generates a detailed performance report for a model."
+            }
+        ]
+    }
+}
