@@ -21,6 +21,10 @@ test/
 # Runtime data
 pids
 user_data
+.taipy
+.DS_Store
+__pycache__
+
 *.pid
 *.seed
 *.pid.lock
