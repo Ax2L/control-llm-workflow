@@ -1,7 +1,6 @@
 # Function File for Scenario workflows
+from modules.utils import add_to_conversation_history, log
 
-
-from modules.utils import log  # Import the log function
 
 def check_prompts(input_data):
     log("Checking prompts...")  # Log start
@@ -23,24 +22,22 @@ from langchain_community.llms import Ollama
 from langchain_core.output_parsers import StrOutputParser
 from modules.utils import log
 
-def send_instruction_to_ollama(instruction, model_name):
+def send_instruction_to_ollama(prompt, model_name, conversation_id):
     log(f"Preparing to send instruction to Ollama model {model_name}...")  # Log start
     try:
         log(f"Sending instruction to Ollama model {model_name}...")
         llm = Ollama(model=model_name, temperature=0.0)
         output_parser = StrOutputParser()
-        result = llm.invoke(instruction)
+        result = llm.invoke(prompt)
         parsed_result = output_parser.parse(result)
         log(f"Received response from Ollama model {model_name}.")
+        add_to_conversation_history(conversation_id, parsed_result)
         return parsed_result
     except Exception as e:
         log(f"Error sending instruction to Ollama: {e}")
         raise e
     finally:
         log(f"Finished sending instruction to Ollama model {model_name}.")  # Log end
-
-
-
 
 
 

@@ -212,3 +212,44 @@ def clean_string(input_variables):
     )
     log("String cleaned successfully.")  # Log end
     return cleaned_input_variables
+
+def ensure_conversation_folder(conversation_id):
+    """
+    Ensure that a folder for the given Conversation-ID exists and store each result inside it.
+    Maintain a JSON file as a history list for the Conversation ID.
+
+    Args:
+        conversation_id (str): The ID of the conversation.
+    """
+    log(f"Ensuring folder exists for Conversation ID: {conversation_id}")  # Log start
+    folder_path = os.path.join("data/conversations", conversation_id)
+    os.makedirs(folder_path, exist_ok=True)
+
+    history_file = os.path.join(folder_path, "history.json")
+    if not os.path.exists(history_file):
+        with open(history_file, "w") as f:
+            json.dump([], f)  # Initialize with an empty list
+
+    log(f"Folder and history file for Conversation ID: {conversation_id} ensured.")  # Log end
+
+def add_to_conversation_history(conversation_id, result):
+    """
+    Add a result to the conversation history for the given Conversation-ID.
+
+    Args:
+        conversation_id (str): The ID of the conversation.
+        result (dict): The result to add to the history.
+    """
+    log(f"Adding result to history for Conversation ID: {conversation_id}")  # Log start
+    ensure_conversation_folder(conversation_id)
+    history_file = os.path.join("data/conversations", conversation_id, "history.json")
+
+    with open(history_file, "r") as f:
+        history = json.load(f)
+
+    history.append(result)
+
+    with open(history_file, "w") as f:
+        json.dump(history, f, indent=4)
+
+    log(f"Result added to history for Conversation ID: {conversation_id} successfully.")  # Log end

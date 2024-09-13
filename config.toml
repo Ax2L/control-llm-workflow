@@ -4,17 +4,34 @@ storage_type = "pickle"
 default_data = "\"Hello World\""
 scope = "SCENARIO:SCOPE"
 
-[TASK.process_prompt]
-inputs = [ "prompt:SECTION" ]
+[TASK.ollama_instruction]
+inputs = [
+  "prompt:SECTION",
+  "model_name:SECTION",
+  "conversation_id:SECTION"
+]
 outputs = [ "response_data:SECTION" ]
-function = "functions.check_prompts:function"
+function = "functions.send_instruction_to_ollama:function"
 skippable = "False:bool"
 
 [SCENARIO.llm_request_instruction]
 additional_data_nodes = [ ]
-tasks = [ "process_prompt:SECTION" ]
+tasks = [ "ollama_instruction:SECTION" ]
 
 [DATA_NODE.response_data]
 storage_type = "pickle"
+
 scope = "SCENARIO:SCOPE"
 
+
+
+
+[DATA_NODE.model_name]
+storage_type = "pickle"
+default_data = "llama3.1"
+scope = "SCENARIO:SCOPE"
+
+[DATA_NODE.conversation_id]
+storage_type = "pickle"
+default_data = "123456"
+scope = "SCENARIO:SCOPE"
