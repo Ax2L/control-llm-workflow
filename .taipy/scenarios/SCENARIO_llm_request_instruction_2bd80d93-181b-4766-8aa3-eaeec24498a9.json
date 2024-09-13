@@ -1,0 +1,16 @@
+{
+"id": "SCENARIO_llm_request_instruction_2bd80d93-181b-4766-8aa3-eaeec24498a9",
+"config_id": "llm_request_instruction",
+"tasks": [
+"TASK_llm_task_request_cd00cd4f-5fc4-444a-a1ec-32fb5a2b85af"
+],
+"additional_data_nodes": [],
+"properties": {},
+"creation_date": "2024-09-13T22:02:15.424797",
+"primary_scenario": false,
+"subscribers": [],
+"tags": [],
+"version": "1cbac9d1-be4d-4506-be9b-91b35833335b",
+"sequences": null,
+"cycle": null
+}

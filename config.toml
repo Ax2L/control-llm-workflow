@@ -5,7 +5,7 @@ scope = "GLOBAL:SCOPE"
 [TASK.llm_task_request]
 
 outputs = [ "llm_response:SECTION" ]
-function = "functions.collect_tasks:function"
+function = "functions.check_prompts:function"
 skippable = "False:bool"
 inputs = [ "llm_any_prompt:SECTION" ]
 
@@ -15,6 +15,7 @@ inputs = [ "llm_any_prompt:SECTION" ]
 
 [DATA_NODE.llm_response]
 storage_type = "json"
+default_path = "prompts/llm_response.json"
 scope = "GLOBAL:SCOPE"
 
 
@@ -36,5 +37,5 @@ tasks = [ "llm_task_request:SECTION" ]
 [DATA_NODE.llm_any_prompt]
 storage_type = "json"
 
-default_path = "any_prompt.json"
+default_path = "prompts/any_prompt.json"
 scope = "GLOBAL:SCOPE"

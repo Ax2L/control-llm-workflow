@@ -1,0 +1,26 @@
+{
+"id": "DATANODE_llm_any_prompt_9a92eddd-88c9-437d-8437-41b1118b3bf7",
+"config_id": "llm_any_prompt",
+"scope": "<Scope.GLOBAL: 3>",
+"storage_type": "json",
+"owner_id": null,
+"parent_ids": [
+"TASK_llm_task_request_cd00cd4f-5fc4-444a-a1ec-32fb5a2b85af"
+],
+"last_edit_date": "2024-09-13T22:02:15.413272",
+"edits": [],
+"version": "1cbac9d1-be4d-4506-be9b-91b35833335b",
+"validity_days": null,
+"validity_seconds": null,
+"edit_in_progress": false,
+"editor_id": null,
+"editor_expiration_date": null,
+"data_node_properties": {
+"default_path": "prompts/any_prompt.json",
+"encoding": "utf-8",
+"encoder_name": null,
+"encoder_module": null,
+"decoder_name": null,
+"decoder_module": null
+}
+}
