@@ -1,41 +1,19 @@
-[DATA_NODE.llm_request]
-storage_type = "json"
-scope = "GLOBAL:SCOPE"
 
-[TASK.llm_task_request]
+[DATA_NODE.prompt]
+storage_type = "pickle"
+scope = "SCENARIO:SCOPE"
 
-outputs = [ "llm_response:SECTION" ]
+[TASK.process_prompt]
+inputs = [ "prompt:SECTION" ]
+outputs = [ "response_data:SECTION" ]
 function = "functions.check_prompts:function"
 skippable = "False:bool"
-inputs = [ "llm_any_prompt:SECTION" ]
-
-
-
-
-
-[DATA_NODE.llm_response]
-storage_type = "json"
-default_path = "prompts/llm_response.json"
-scope = "GLOBAL:SCOPE"
-
-
-
-
-
-
-
-
-
-
-
-
 
 [SCENARIO.llm_request_instruction]
 additional_data_nodes = [ ]
-tasks = [ "llm_task_request:SECTION" ]
+tasks = [ "process_prompt:SECTION" ]
 
-[DATA_NODE.llm_any_prompt]
-storage_type = "json"
+[DATA_NODE.response_data]
+storage_type = "pickle"
+scope = "SCENARIO:SCOPE"
 
-default_path = "prompts/any_prompt.json"
-scope = "GLOBAL:SCOPE"

@@ -34,9 +34,13 @@ def show_answer(state, task_id):
     Returns:
         str: The answer for the task or "n/a" if not found.
     """
+    log(f"Showing answer for Task ID: {task_id}")  # Log start
     if state is None or state.answers is None:
+        log(f"No answer found for Task ID: {task_id}")
         return "n/a"
-    return state.answers.get(task_id, "n/a")
+    answer = state.answers.get(task_id, "n/a")
+    log(f"Answer for Task ID: {task_id} is {answer}")
+    return answer
 
 def load_conversation(task_id):
     """
@@ -48,6 +52,7 @@ def load_conversation(task_id):
     Returns:
         dict: The conversation data or None if the file does not exist.
     """
+    log(f"Loading conversation for Task ID: {task_id}")  # Log start
     file_path = f"data/{task_id}.json"
     if not os.path.exists(file_path):
         log(f"Conversation file for Task ID {task_id} does not exist.")
@@ -68,10 +73,11 @@ def ask_llm_action(state, task_id, summary, description):
         summary (str): The summary of the task.
         description (str): The description of the task.
     """
-    log(f"Asking LLM action triggered for Task ID: {task_id}")
+    log(f"Asking LLM action for Task ID: {task_id}")  # Log start
     answer = ask_llm_solution(task_id, summary, description)
     state.answers[task_id] = answer
     notify(state, f"Answer for Task {task_id} received!", "success")
+    log(f"LLM action for Task ID: {task_id} completed successfully.")  # Log end
 
 def ask_llm_solution(task_id, summary, description):
     """
@@ -85,7 +91,7 @@ def ask_llm_solution(task_id, summary, description):
     Returns:
         str: The answer from the LLM.
     """
-    log(f"Asking LLM for solution for Task ID: {task_id}")
+    log(f"Asking LLM for solution for Task ID: {task_id}")  # Log start
     context = f"Summary: {summary}\nDescription: {description}"
     answer = ask_llm(context)
     tasks = load_existing_tasks("data/tasks.json")
@@ -106,7 +112,7 @@ def load_config():
     Returns:
         dict: Configuration settings.
     """
-    log("Loading configuration...")
+    log("Loading configuration...")  # Log start
     with open("config/config.json") as f:
         config = json.load(f)
     log("Configuration loaded successfully.")
@@ -122,7 +128,7 @@ def generate_mermaid_diagram(config_path="config/config.json"):
     Returns:
         str: The Mermaid diagram as a string.
     """
-    log("Generating Mermaid diagram...")
+    log("Generating Mermaid diagram...")  # Log start
     with open(config_path, "r") as f:
         config = json.load(f)
 
@@ -161,10 +167,11 @@ def add_task_action(state, task_id, summary, description):
         summary (str): The summary of the task.
         description (str): The description of the task.
     """
-    log(f"Adding new task: {task_id}")
+    log(f"Adding new task: {task_id}")  # Log start
     new_task = {"ID": task_id, "Summary": summary, "Description": description}
     state.tasks = state.tasks.append(new_task, ignore_index=True)
     notify(state, "success", f"Task {task_id} added successfully!")
+    log(f"Task {task_id} added successfully.")  # Log end
 
 def get_task_details(task_id):
     """
@@ -176,7 +183,7 @@ def get_task_details(task_id):
     Returns:
         dict: The task details or None if not found.
     """
-    log(f"Fetching details for Task ID: {task_id}")
+    log(f"Fetching details for Task ID: {task_id}")  # Log start
     tasks = load_existing_tasks("data/tasks.json")
     for task in tasks:
         if task["ID"] == task_id:
@@ -195,6 +202,7 @@ def clean_string(input_variables):
     Returns:
         str: The cleaned string.
     """
+    log("Cleaning string...")  # Log start
     cleaned_input_variables = (
         str(input_variables).replace("[", "")
         .replace("]", "")
@@ -202,4 +210,5 @@ def clean_string(input_variables):
         .replace("}", "")
         .replace("'", "")
     )
+    log("String cleaned successfully.")  # Log end
     return cleaned_input_variables
