@@ -1,6 +1,7 @@
 
 [DATA_NODE.prompt]
 storage_type = "pickle"
+default_data = "\"Hello World\""
 scope = "SCENARIO:SCOPE"
 
 [TASK.process_prompt]
