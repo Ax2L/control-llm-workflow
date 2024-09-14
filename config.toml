@@ -35,3 +35,19 @@ scope = "SCENARIO:SCOPE"
 storage_type = "pickle"
 default_data = "123456"
 scope = "SCENARIO:SCOPE"
+
+[TASK.load_prompt_vault]
+inputs = [ ]
+outputs = [ ]
+function = ""
+skippable = "False:bool"
+
+
+
+
+
+[TASK.oobabooga_instruction]
+inputs = [ "conversation_id:SECTION", "prompt:SECTION" ]
+outputs = [ "response_data:SECTION" ]
+function = ""
+skippable = "False:bool"
