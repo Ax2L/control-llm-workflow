@@ -6,8 +6,6 @@ import json
 import os
 
 
-
-
 def check_prompts(input_data):
     log("Checking prompts...")  # Log start
     # Check prompts from Jira
@@ -89,7 +87,7 @@ def send_instruction_to_oobabooga(prompt, conversation_id=None):
 
 
 
-def load_test_questions(path_or_data):
+def load_data(path_or_data):
     log(f"Loading test questions...")  # Log start
     try:
         if isinstance(path_or_data, dict):
@@ -108,20 +106,16 @@ def load_test_questions(path_or_data):
         log(f"Error loading test questions: {e}")
         raise e
 
-def send_to_llm(question):
-    
-    # Placeholder function to simulate LLM response
-    return f"Response to: {question}"
 
-
-def llm_result_analysis(analysis_json_list, model_name):
-    log("Starting LLM result analysis...")
-    questions = analysis_json_list.get('jokes_prompts', [])
+def llm_process_list_of_prompts(path_or_data, conversation_id):
+    log("Starting LLM processing of list of prompts...")
+    json_list = load_data(path_or_data)
+    questions = json_list.get('jokes_prompts', [])
     responses = []
     for question in questions:
         prompt = question.get('prompt', '')
         try:
-            response = send_instruction_to_oobabooga(prompt, model_name)
+            response = send_instruction_to_oobabooga(prompt, conversation_id)
         except Exception as e:
             log(f"Error processing question '{prompt}': {e}")
             response = f"Error: {str(e)}"
@@ -129,6 +123,6 @@ def llm_result_analysis(analysis_json_list, model_name):
             "question": prompt,
             "response": response
         })
-    log("LLM result analysis completed.")
+    log("LLM processing of list of prompts completed.")
     return json.dumps(responses)
 
