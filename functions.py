@@ -41,12 +41,7 @@ def send_instruction_to_ollama(prompt, model_name, conversation_id):
 
 def send_instruction_to_oobabooga(
     prompt,
-    conversation_id,
-    max_tokens=200,
-    temperature=1,
-    top_p=0.9,
-    seed=None,
-    stream=False,
+    conversation_id
 ):
     """
     Generate text using the oobabooga/text-generation-webui API.
@@ -62,7 +57,13 @@ def send_instruction_to_oobabooga(
     Returns:
         str: The generated text.
     """
-    url = "http://192.168.1.99:5000/v1/completions"
+    log(f"Preparing to send instruction to oobabooga...")  # Log start
+    max_tokens=200
+    temperature=1
+    top_p=0.9
+    seed=None
+    stream=False
+    url = "http://192.168.10.99:5000/v1/completions"
     headers = {"Content-Type": "application/json"}
     data = {
         "prompt": prompt,
@@ -74,18 +75,28 @@ def send_instruction_to_oobabooga(
     if seed is not None:
         data["seed"] = seed
 
-    response = requests.post(url, headers=headers, json=data, verify=False)
-    if stream:
-        client = sseclient.SSEClient(response)
-        generated_text = ""
-        for event in client.events():
-            payload = json.loads(event.data)
-            generated_text += payload["choices"][0]["text"]
-        add_to_conversation_history(conversation_id, generated_text)
-        return generated_text
-    else:
-        add_to_conversation_history(conversation_id, response.json()["choices"][0]["text"])
-        return response.json()["choices"][0]["text"]
+    try:
+        log(f"Sending request to oobabooga API...")
+        response = requests.post(url, headers=headers, json=data, verify=False)
+        if stream:
+            client = sseclient.SSEClient(response)
+            generated_text = ""
+            for event in client.events():
+                payload = json.loads(event.data)
+                generated_text += payload["choices"][0]["text"]
+            add_to_conversation_history(conversation_id, generated_text)
+            log(f"Received streamed response from oobabooga API.")
+            return generated_text
+        else:
+            result_text = response.json()["choices"][0]["text"]
+            add_to_conversation_history(conversation_id, result_text)
+            log(f"Received response from oobabooga API.")
+            return result_text
+    except Exception as e:
+        log(f"Error sending instruction to oobabooga: {e}")
+        raise e
+    finally:
+        log(f"Finished sending instruction to oobabooga.")  # Log end
 
 
 # ... existing code ...

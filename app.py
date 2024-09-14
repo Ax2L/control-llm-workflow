@@ -21,15 +21,15 @@ if __name__ == "__main__":
             log("Core running.")
             
             # Create and run the scenario
-            scenario_cfg = Config.scenarios.get("llm_request_instruction")
+            scenario_cfg = Config.scenarios.get("llm_ollama_instruction")
             if scenario_cfg is None:
-                log("Scenario 'llm_request_instruction' not found in configuration.")
-                print("Scenario 'llm_request_instruction' not found in configuration.")
+                log("Scenario 'llm_ollama_instruction' not found in configuration.")
+                print("Scenario 'llm_ollama_instruction' not found in configuration.")
             else:
-                log("Creating and submitting scenario 'llm_request_instruction'...")
+                log("Creating and submitting scenario 'llm_ollama_instruction'...")
                 scenario = tp.create_scenario(scenario_cfg)
                 tp.submit(scenario)
-                log("Scenario 'llm_request_instruction' submitted successfully.")
+                log("Scenario 'llm_ollama_instruction' submitted successfully.")
         except Exception as e:
             log(f"An error occurred: {e}")
             print(f"An error occurred: {e}")
