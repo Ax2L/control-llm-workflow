@@ -1,0 +1,28 @@
+{
+  "data_structures_prompts": [
+    {
+      "title": "Basic Stack Implementation",
+      "prompt": "Write a Python class to implement a basic stack with push, pop, and peek methods."
+    },
+    {
+      "title": "Queue Implementation",
+      "prompt": "Write a Python class to implement a basic queue with enqueue, dequeue, and peek methods."
+    },
+    {
+      "title": "Linked List Implementation",
+      "prompt": "Write a Python class to implement a singly linked list with methods to insert, delete, and search for elements."
+    },
+    {
+      "title": "Binary Search Tree Implementation",
+      "prompt": "Write a Python class to implement a binary search tree with methods to insert, delete, and search for elements."
+    },
+    {
+      "title": "Graph Implementation",
+      "prompt": "Write a Python class to implement an undirected graph using an adjacency list. Include methods to add a vertex, add an edge, and perform a depth-first search."
+    },
+    {
+      "title": "Hash Table Implementation",
+      "prompt": "Write a Python class to implement a basic hash table with methods to insert, delete, and search for elements."
+    }
+  ]
+}

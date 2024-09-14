@@ -1,0 +1,75 @@
+[CORE]
+core_version = "3.0"
+
+
+
+
+
+
+
+[DATA_NODE.response_data]
+storage_type = "pickle"
+
+scope = "SCENARIO:SCOPE"
+
+
+
+
+
+
+[DATA_NODE.analysized_test_result]
+storage_type = "pickle"
+
+scope = "SCENARIO:SCOPE"
+
+
+
+
+
+
+
+[TASK.oobabooga_instruction]
+inputs = [ "context_test_json:SECTION", "test_model:SECTION" ]
+outputs = [ "response_data:SECTION" ]
+function = "functions.send_instruction_to_oobabooga:function"
+skippable = "False:bool"
+
+
+
+[SCENARIO.llm_test_benchmark]
+additional_data_nodes = [ ]
+tasks = [ "load_test_questions:SECTION" ]
+
+
+
+
+
+
+
+[DATA_NODE.context_test_json]
+storage_type = "json"
+scope = "SCENARIO:SCOPE"
+
+[DATA_NODE.test_name]
+storage_type = "json"
+default_data = "data/prompts/benchmarks/jokes.json"
+scope = "SCENARIO:SCOPE"
+
+[TASK.llm_result_analysis]
+inputs = [ "test_model:SECTION", "response_data:SECTION" ]
+outputs = [ "analysized_test_result:SECTION" ]
+function = "functions.llm_test_process:function"
+skippable = "False:bool"
+
+[TASK.load_test_questions]
+inputs = [ "test_name:SECTION" ]
+outputs = [ "context_test_json:SECTION" ]
+function = "functions.load_test_questions:function"
+skippable = "False:bool"
+
+
+
+[DATA_NODE.test_model]
+storage_type = "pickle"
+default_data = "qwen2"
+scope = "SCENARIO:SCOPE"

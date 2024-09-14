@@ -1,0 +1,28 @@
+{
+    "coding_prompts": [
+      {
+        "title": "Basic Syntax and Understanding",
+        "prompt": "Write a Python function that takes a list of numbers and returns the sum of the even numbers in the list."
+      },
+      {
+        "title": "Problem-Solving",
+        "prompt": "Write a Python function to check if a given string is a palindrome."
+      },
+      {
+        "title": "Code Optimization",
+        "prompt": "Optimize the following Python code to improve its performance:\n```python\ndef find_duplicates(nums):\n    duplicates = []\n    for i in range(len(nums)):\n        for j in range(i + 1, len(nums)):\n            if nums[i] == nums[j]:\n                duplicates.append(nums[i])\n    return duplicates\n```"
+      },
+      {
+        "title": "Error Handling",
+        "prompt": "Write a Python function that reads a file and returns its content. Ensure the function handles file not found errors gracefully."
+      },
+      {
+        "title": "Algorithm Implementation",
+        "prompt": "Implement the quicksort algorithm in Python."
+      },
+      {
+        "title": "Data Structures",
+        "prompt": "Write a Python class to implement a basic stack with push, pop, and peek methods."
+      }
+    ]
+  }

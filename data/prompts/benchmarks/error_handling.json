@@ -1,0 +1,24 @@
+{
+  "error_handling_prompts": [
+    {
+      "title": "File Not Found Error Handling",
+      "prompt": "Write a Python function that reads a file and returns its content. Ensure the function handles file not found errors gracefully."
+    },
+    {
+      "title": "Division by Zero Error Handling",
+      "prompt": "Write a Python function that divides two numbers and handles division by zero errors gracefully."
+    },
+    {
+      "title": "Type Error Handling",
+      "prompt": "Write a Python function that adds two numbers and handles type errors gracefully if the inputs are not numbers."
+    },
+    {
+      "title": "Index Error Handling",
+      "prompt": "Write a Python function that accesses an element in a list by index and handles index errors gracefully."
+    },
+    {
+      "title": "Key Error Handling",
+      "prompt": "Write a Python function that accesses a value in a dictionary by key and handles key errors gracefully."
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "jokes_prompts": [
+    {
+      "title": "Basic Joke",
+      "prompt": "Tell me a simple, funny joke."
+    },
+    {
+      "title": "Programming Joke",
+      "prompt": "Tell me a joke about programming."
+    },
+    {
+      "title": "Puns",
+      "prompt": "Tell me a pun."
+    },
+    {
+      "title": "Knock-Knock Joke",
+      "prompt": "Tell me a knock-knock joke."
+    },
+    {
+      "title": "Animal Joke",
+      "prompt": "Tell me a joke about animals."
+    },
+    {
+      "title": "Dad Joke",
+      "prompt": "Tell me a dad joke."
+    }
+  ]
+}

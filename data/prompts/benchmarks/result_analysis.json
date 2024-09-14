@@ -1,0 +1,8 @@
+{
+  "result_analysis_prompt": [
+    {
+      "title": "Result Analysis",
+      "prompt": "Analyze the coding capabilities of the following AI Text Models based on their responses to a set of coding tasks. Provide a list of pros and cons for each model regarding their coding performance. The models and their responses are as follows:\n\nModel 1:\n{model_1_responses}\n\nModel 2:\n{model_2_responses}\n\nModel 3:\n{model_3_responses}\n\nModel 4:\n{model_4_responses}\n\nModel 5:\n{model_5_responses}\n\nSummarize the strengths and weaknesses of each model in a clear and concise manner."
+    }
+  ]
+}

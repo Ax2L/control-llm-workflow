@@ -18,10 +18,7 @@ skippable = "False:bool"
 
 [SCENARIO.llm_ollama_instruction]
 additional_data_nodes = [ ]
-tasks = [
-  "ollama_instruction:SECTION",
-  "oobabooga_instruction:SECTION"
-]
+tasks = [ "ollama_instruction:SECTION" ]
 
 [DATA_NODE.response_data]
 storage_type = "pickle"
@@ -54,3 +51,7 @@ function = "functions.send_instruction_to_oobabooga:function"
 skippable = "False:bool"
 
 
+
+[SCENARIO.llm_oobabooga_instruction]
+additional_data_nodes = [ ]
+tasks = [ "oobabooga_instruction:SECTION" ]

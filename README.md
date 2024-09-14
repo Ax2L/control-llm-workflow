@@ -25,6 +25,20 @@ Holds task-related configuration files. For example, `test.toml` defines the str
 ### `app.py`
 The main entry point for the application, responsible for initializing and running the core logic.
 
+## Running the Application
+
+To run the application with a specific Taipy Scenario, use the following command:
+
+```sh
+
+python app.py -s <scenario_name> 
+
+# For example, to run the `llm_oobabooga_instruction` scenario, use:
+
+python app.py -s llm_oobabooga_instruction
+
+```
+
 ## Project Goals
 We aim to achieve the following with this project:
 

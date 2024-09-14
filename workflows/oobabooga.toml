@@ -1,0 +1,65 @@
+[CORE]
+core_version = "3.0"
+
+[DATA_NODE.prompt]
+storage_type = "pickle"
+
+scope = "SCENARIO:SCOPE"
+
+
+
+
+
+[DATA_NODE.response_data]
+storage_type = "pickle"
+
+scope = "SCENARIO:SCOPE"
+
+
+
+
+[DATA_NODE.model_name]
+storage_type = "pickle"
+
+scope = "SCENARIO:SCOPE"
+
+[DATA_NODE.conversation_id]
+storage_type = "pickle"
+
+scope = "SCENARIO:SCOPE"
+
+
+
+
+
+
+
+[TASK.oobabooga_instruction]
+inputs = [ "prompt:SECTION", "conversation_id:SECTION" ]
+outputs = [ "response_data:SECTION" ]
+function = "functions.send_instruction_to_oobabooga:function"
+skippable = "False:bool"
+
+
+
+[SCENARIO.llm_oobabooga_instruction]
+additional_data_nodes = [ ]
+tasks = [ "oobabooga_instruction:SECTION" ]
+
+[TASK.llm_improve_codebase]
+inputs = [ ]
+outputs = [ ]
+function = ""
+skippable = "False:bool"
+
+[DATA_NODE.character]
+storage_type = "pickle"
+scope = "SCENARIO:SCOPE"
+
+[DATA_NODE.character_situation_pose]
+storage_type = "pickle"
+scope = "SCENARIO:SCOPE"
+
+[DATA_NODE.character_prompt]
+storage_type = "pickle"
+scope = "SCENARIO:SCOPE"

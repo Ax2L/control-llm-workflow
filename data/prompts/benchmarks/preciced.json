@@ -1,0 +1,28 @@
+{
+  "instruction_prompts": [
+    {
+      "title": "Precise Instruction Following - Basic Task",
+      "prompt": "Write a Python function that takes two arguments, a string and a character, and returns the number of times the character appears in the string. Ensure the function is case-sensitive."
+    },
+    {
+      "title": "Precise Instruction Following - Formatting",
+      "prompt": "Write a Python function that takes a list of integers and returns a string where the integers are separated by commas and a space. The string should start with 'Numbers: ' and end with a period."
+    },
+    {
+      "title": "Precise Instruction Following - Edge Cases",
+      "prompt": "Write a Python function that takes a list of integers and returns a new list with only the positive integers. If the list is empty or contains no positive integers, return an empty list."
+    },
+    {
+      "title": "Precise Instruction Following - Complex Task",
+      "prompt": "Write a Python function that takes a list of dictionaries, each containing 'name' and 'age' keys, and returns a list of names sorted by age in ascending order. If two people have the same age, sort them alphabetically by name."
+    },
+    {
+      "title": "Precise Instruction Following - Error Handling",
+      "prompt": "Write a Python function that takes a list of numbers and returns the average. If the list is empty, return 'List is empty'. Ensure the function handles non-numeric values in the list by ignoring them."
+    },
+    {
+      "title": "Precise Instruction Following - String Manipulation",
+      "prompt": "Write a Python function that takes a string and returns a new string with all vowels removed. The function should be case-insensitive and preserve the original case of the consonants."
+    }
+  ]
+}
