@@ -83,3 +83,19 @@ This section aims to define the following Taipy Core concepts with visual exampl
 - [Taipy Cheat Sheets](https://github.com/tushar2704/Taipy-Cheat-Sheets)
 
 Ensure to follow these guidelines and concepts during the development phase to maintain consistency and efficiency.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

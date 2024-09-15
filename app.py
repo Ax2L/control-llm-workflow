@@ -1,45 +1,61 @@
-# WebUI Taipy App for Scenario workflows management
-import taipy.core as tp
+import taipy as tp
+from taipy.gui import notify, Gui, State
 from taipy import Config
+import pandas as pd
+import datetime as dt
 import os
-import argparse  # Import argparse for command-line arguments
-from modules.utils import log  # Import the log function
+from modules.utils import log
 
-config_path = "workflows/config.toml"
+Config.load('config.toml')  # Updated to use config.toml
 
-def main(scenario_name, config_path):
-    log("Starting the application...")  # Log start
-    # Load the configuration
-    if not os.path.exists(config_path):
-        log(f"Configuration file '{config_path}' not found.")
-        print(f"Configuration file '{config_path}' not found.")
-    else:
-        try:
-            log(f"Loading configuration from '{config_path}'...")
-            Config.load(config_path)
-            log("Configuration loaded successfully.")
-            tp.Core().run()
-            log("Core running.")
-            
-            # Create and run the scenario
-            scenario_cfg = Config.scenarios.get(scenario_name)  # Changed llm_testt_benchmark to scenario_name
-            if scenario_cfg is None:
-                log(f"Scenario '{scenario_name}' not found in configuration.")
-                print(f"Scenario '{scenario_name}' not found in configuration.")
-            else:
-                log(f"Creating and submitting scenario '{scenario_name}'...")
-                scenario = tp.create_scenario(scenario_cfg)
-                tp.submit(scenario)
-                log(f"Scenario '{scenario_name}' submitted successfully.")
-        except Exception as e:
-            log(f"An error occurred: {e}")
-            print(f"An error occurred: {e}")
-    log("Application finished.")  # Log end
+try:
+    if selected_nodes:
+        pass
+except:
+    date = None
+    scenario = None
+    selected_nodes = []
+    selected_jobs = []
 
-if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Run Taipy Scenario")
-    parser.add_argument("-s", "--scenario", type=str, default="llm_ollama_instruction", help="Scenario name to run")
-    parser.add_argument("-c", "--config", type=str, default="workflows/config.toml", help="Config file path")
-    args = parser.parse_args()
-    main(args.scenario, args.config)
+def on_init(state: State):
+    log("Initializing application state.")
+    state.date = None
+    state.selected_nodes = []  # Initialize selected_nodes
+
+
+def on_data_node_change(state: State, var_name, var_value):
+    log(f"on_data_node_change triggered with var_name={var_name}, var_value={var_value}")
+    state.selected_nodes = var_value
+    notify(state, f"Selected data nodes updated: {state.selected_nodes}", "success")
+
+html = """
+<|layout|columns=150px auto|
+<|{scenario}|scenario_selector|>
+<|part|
+<|layout|columns=450px auto|
+<|{scenario}|scenario|>
+<|part|
+<|{scenario}|scenario_dag|>
+|>
+|>
+|>
+|>
+<|{selected_jobs}|job_selector|>
+<|layout|columns=1 1|
+<|{scenario}|data_node_selector|on_change=on_data_node_change|>
+<|{selected_nodes}|data_node|>
+|>
+"""
+
+gui = Gui(page=html)
+gui.run(
+    on_init=on_init,
+    port=5001,
+    title="Scenario Dashboard",
+    dark_mode=True,
+    use_reloader=True,
+    allow_unsafe_werkzeug=True,
+    async_mode='threading',
+    debug=True,
+)
 
