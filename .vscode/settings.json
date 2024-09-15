@@ -30,7 +30,6 @@
         "**/Thumbs.db": true,
         "__pycache__": true,
         ".taipy": true,
-        "user_data": true,
         ".vscode": true,
         ".curignore": true,
         ".gitignore": true
@@ -38,7 +37,6 @@
     "hide-files.files": [
         "__pycache__",
         ".taipy",
-        "user_data",
         ".vscode",
         ".curignore",
         ".gitignore"

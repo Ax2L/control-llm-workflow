@@ -126,3 +126,15 @@ def llm_process_list_of_prompts(path_or_data, conversation_id):
     log("LLM processing of list of prompts completed.")
     return json.dumps(responses)
 
+
+def send_llm_request(prompt, model_name, conversation_id):
+    # Implement your LLM request logic here
+    response_data = f"Sample response for prompt: {prompt}, model: {model_name}, conversation: {conversation_id}"
+    return response_data
+
+def process_list_of_prompts(conversation_id, path_or_data):
+    # Implement your logic to process a list of prompts
+    result_data = f"Sample result for conversation: {conversation_id}, path_or_data: {path_or_data}"
+    return result_data
+
+

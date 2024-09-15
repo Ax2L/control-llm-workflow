@@ -1,127 +1,1190 @@
-[2024-09-15 13:32:28][Taipy][INFO] Loading configuration. Filename: 'config.toml'
-[2024-09-15 13:32:28][Taipy][INFO] Configuration 'config.toml' successfully loaded.
-[2024-09-15 13:32:28][Taipy][INFO]  * Server starting on http://127.0.0.1:5001
- * Serving Flask app 'Taipy'
- * Debug mode: on
-[2024-09-15 13:32:32][Taipy][INFO] Loading configuration. Filename: 'config.toml'
-[2024-09-15 13:32:32][Taipy][INFO] Configuration 'config.toml' successfully loaded.
-[2024-09-15 13:32:32][Taipy][INFO]  * Server reloaded on http://127.0.0.1:5001
-2024-09-15 13:32:33 - Initializing application state.
-[2024-09-15 13:34:37][Taipy][INFO] Loading configuration. Filename: 'config.toml'
-[2024-09-15 13:34:37][Taipy][INFO] Configuration 'config.toml' successfully loaded.
-[2024-09-15 13:34:37][Taipy][INFO]  * Server reloaded on http://127.0.0.1:5001
-[2024-09-15 13:34:52][Taipy][INFO] Loading configuration. Filename: 'config.toml'
-[2024-09-15 13:34:53][Taipy][INFO] Configuration 'config.toml' successfully loaded.
-[2024-09-15 13:34:53][Taipy][INFO]  * Server reloaded on http://127.0.0.1:5001
-2024-09-15 13:34:53 - Initializing application state.
-[2024-09-15 13:35:45][Taipy][INFO] Loading configuration. Filename: 'config.toml'
-[2024-09-15 13:35:45][Taipy][INFO] Configuration 'config.toml' successfully loaded.
-[2024-09-15 13:35:45][Taipy][INFO]  * Server reloaded on http://127.0.0.1:5001
-[2024-09-15 13:36:46][Taipy][INFO] Loading configuration. Filename: 'config.toml'
-[2024-09-15 13:36:47][Taipy][INFO] Configuration 'config.toml' successfully loaded.
-[2024-09-15 13:36:47][Taipy][INFO]  * Server reloaded on http://127.0.0.1:5001
-2024-09-15 13:37:37 - on_data_node_change triggered with var_name=scenario, var_value=None
-2024-09-15 13:37:37 - on_data_node_change triggered with var_name=scenario, var_value=Ax2L > conversation_id
-[2024-09-15 13:37:52][Taipy][WARNING] JOB_oobabooga_instruction_ef4a4ada-30d7-4b78-9be8-85650111c2d6 is not in the blocked list anymore.
-[2024-09-15 13:39:27][Taipy][INFO] Loading configuration. Filename: 'config.toml'
-[2024-09-15 13:39:27][Taipy][INFO] Configuration 'config.toml' successfully loaded.
-[2024-09-15 13:39:27][Taipy][INFO]  * Server reloaded on http://127.0.0.1:5001
-2024-09-15 13:39:27 - Initializing application state.
-2024-09-15 13:45:57 - on_data_node_change triggered with var_name=scenario, var_value=None
-2024-09-15 13:45:58 - on_data_node_change triggered with var_name=scenario, var_value=llm_ollama_instruction > conversation_id
-2024-09-15 13:45:58 - on_data_node_change triggered with var_name=scenario, var_value=llm_ollama_instruction > response_data
-2024-09-15 13:45:59 - on_data_node_change triggered with var_name=scenario, var_value=llm_ollama_instruction > prompt
-2024-09-15 13:46:00 - on_data_node_change triggered with var_name=scenario, var_value=llm_ollama_instruction > model_name
-2024-09-15 13:46:01 - on_data_node_change triggered with var_name=scenario, var_value=None
-2024-09-15 13:46:02 - on_data_node_change triggered with var_name=scenario, var_value=Ax2L > conversation_id
-2024-09-15 13:46:02 - on_data_node_change triggered with var_name=scenario, var_value=Ax2L > prompt
-2024-09-15 13:46:03 - on_data_node_change triggered with var_name=scenario, var_value=Ax2L > prompt
-2024-09-15 13:46:03 - on_data_node_change triggered with var_name=scenario, var_value=Ax2L > response_data
-2024-09-15 13:46:06 - on_data_node_change triggered with var_name=scenario, var_value=Ax2L > conversation_id
-2024-09-15 13:46:08 - on_data_node_change triggered with var_name=scenario, var_value=Ax2L > prompt
-2024-09-15 13:46:11 - on_data_node_change triggered with var_name=scenario, var_value=llm_ollama_instruction > response_data
-2024-09-15 13:46:11 - on_data_node_change triggered with var_name=scenario, var_value=llm_ollama_instruction > conversation_id
-2024-09-15 13:46:12 - on_data_node_change triggered with var_name=scenario, var_value=llm_ollama_instruction > prompt
-2024-09-15 13:46:13 - on_data_node_change triggered with var_name=scenario, var_value=llm_ollama_instruction > model_name
-[2024-09-15 14:28:02][Taipy][INFO] Loading configuration. Filename: 'config.toml'
-[2024-09-15 14:28:03][Taipy][INFO] Configuration 'config.toml' successfully loaded.
-[2024-09-15 14:28:04][Taipy][INFO]  * Server reloaded on http://127.0.0.1:5001
-[2024-09-15 14:28:11][Taipy][INFO] Loading configuration. Filename: 'config.toml'
-[2024-09-15 14:28:11][Taipy][INFO] Configuration 'config.toml' successfully loaded.
-[2024-09-15 14:28:12][Taipy][INFO]  * Server reloaded on http://127.0.0.1:5001
-2024-09-15 14:28:12 - Initializing application state.
-[2024-09-15 14:29:10][Taipy][INFO] Loading configuration. Filename: 'config.toml'
-[2024-09-15 14:29:10][Taipy][INFO] Configuration 'config.toml' successfully loaded.
-[2024-09-15 14:29:11][Taipy][INFO]  * Server reloaded on http://127.0.0.1:5001
-2024-09-15 14:29:11 - Initializing application state.
-[2024-09-15 14:29:42][Taipy][INFO] Loading configuration. Filename: 'config.toml'
-[2024-09-15 14:29:42][Taipy][INFO] Configuration 'config.toml' successfully loaded.
-[2024-09-15 14:29:42][Taipy][INFO]  * Server reloaded on http://127.0.0.1:5001
-2024-09-15 14:29:43 - Initializing application state.
-[2024-09-15 14:32:11][Taipy][INFO] Loading configuration. Filename: 'config.toml'
-[2024-09-15 14:32:11][Taipy][INFO] Configuration 'config.toml' successfully loaded.
-[2024-09-15 14:32:11][Taipy][INFO]  * Server reloaded on http://127.0.0.1:5001
-[2024-09-15 14:32:30][Taipy][INFO] Loading configuration. Filename: 'config.toml'
-[2024-09-15 14:32:30][Taipy][INFO] Configuration 'config.toml' successfully loaded.
-[2024-09-15 14:32:30][Taipy][INFO]  * Server reloaded on http://127.0.0.1:5001
-[2024-09-15 14:32:39][Taipy][INFO] Loading configuration. Filename: 'config.toml'
-[2024-09-15 14:32:39][Taipy][INFO] Configuration 'config.toml' successfully loaded.
-[2024-09-15 14:32:39][Taipy][INFO]  * Server reloaded on http://127.0.0.1:5001
-[2024-09-15 14:32:58][Taipy][INFO] Loading configuration. Filename: 'config.toml'
-[2024-09-15 14:32:58][Taipy][INFO] Configuration 'config.toml' successfully loaded.
-[2024-09-15 14:32:58][Taipy][INFO]  * Server reloaded on http://127.0.0.1:5001
-[2024-09-15 14:33:26][Taipy][INFO] Loading configuration. Filename: 'config.toml'
-[2024-09-15 14:33:26][Taipy][INFO] Configuration 'config.toml' successfully loaded.
-[2024-09-15 14:33:26][Taipy][INFO]  * Server reloaded on http://127.0.0.1:5001
-[2024-09-15 14:33:36][Taipy][INFO] Loading configuration. Filename: 'config.toml'
-[2024-09-15 14:33:37][Taipy][INFO] Configuration 'config.toml' successfully loaded.
-[2024-09-15 14:33:37][Taipy][INFO]  * Server reloaded on http://127.0.0.1:5001
-2024-09-15 14:33:41 - Initializing application state.
-2024-09-15 14:34:09 - on_data_node_change triggered with var_name=scenario, var_value=None
-2024-09-15 14:34:10 - on_data_node_change triggered with var_name=scenario, var_value=Ax2L > prompt
-2024-09-15 14:34:11 - on_data_node_change triggered with var_name=scenario, var_value=Ax2L > conversation_id
-2024-09-15 14:34:12 - on_data_node_change triggered with var_name=scenario, var_value=Ax2L > response_data
-2024-09-15 14:34:15 - on_data_node_change triggered with var_name=scenario, var_value=Ax2L > prompt
-[2024-09-15 14:34:32][Taipy][INFO] Loading configuration. Filename: 'config.toml'
-[2024-09-15 14:34:32][Taipy][INFO] Configuration 'config.toml' successfully loaded.
-[2024-09-15 14:34:32][Taipy][INFO]  * Server reloaded on http://127.0.0.1:5001
-[2024-09-15 14:35:22][Taipy][INFO] Loading configuration. Filename: 'config.toml'
-[2024-09-15 14:35:23][Taipy][INFO] Configuration 'config.toml' successfully loaded.
-[2024-09-15 14:35:23][Taipy][INFO]  * Server reloaded on http://127.0.0.1:5001
-2024-09-15 14:35:26 - Initializing application state.
-[2024-09-15 14:36:22][Taipy][INFO] Loading configuration. Filename: 'config.toml'
-[2024-09-15 14:36:22][Taipy][INFO] Configuration 'config.toml' successfully loaded.
-[2024-09-15 14:36:22][Taipy][INFO]  * Server reloaded on http://127.0.0.1:5001
-2024-09-15 14:36:23 - Initializing application state.
-2024-09-15 14:37:15 - on_data_node_change triggered with var_name=scenario, var_value=None
-2024-09-15 14:37:16 - on_data_node_change triggered with var_name=scenario, var_value=None
-2024-09-15 14:37:16 - on_data_node_change triggered with var_name=scenario, var_value=llm_ollama_instruction > model_name
-2024-09-15 14:37:17 - on_data_node_change triggered with var_name=scenario, var_value=llm_ollama_instruction > conversation_id
-2024-09-15 14:37:18 - on_data_node_change triggered with var_name=scenario, var_value=Ax2L > response_data
-2024-09-15 14:37:18 - on_data_node_change triggered with var_name=scenario, var_value=Ax2L > conversation_id
-2024-09-15 14:37:45 - on_data_node_change triggered with var_name=scenario, var_value=llm_ollama_instruction > conversation_id
-2024-09-15 14:37:46 - on_data_node_change triggered with var_name=scenario, var_value=Ax2L > conversation_id
-[2024-09-15 14:47:38][Taipy][INFO] Loading configuration. Filename: 'config.toml'
-[2024-09-15 14:47:39][Taipy][INFO] Configuration 'config.toml' successfully loaded.
-[2024-09-15 14:47:39][Taipy][INFO]  * Server reloaded on http://127.0.0.1:5001
-2024-09-15 14:47:39 - Initializing application state.
-[2024-09-15 14:51:32][Taipy][INFO] Loading configuration. Filename: 'config.toml'
-[2024-09-15 14:51:32][Taipy][INFO] Configuration 'config.toml' successfully loaded.
-[2024-09-15 14:51:32][Taipy][INFO]  * Server reloaded on http://127.0.0.1:5001
-2024-09-15 14:51:40 - Initializing application state.
-2024-09-15 14:53:11 - on_data_node_change triggered with var_name=scenario, var_value=None
-2024-09-15 14:53:11 - on_data_node_change triggered with var_name=scenario, var_value=Ax2L > prompt
-2024-09-15 14:53:14 - on_data_node_change triggered with var_name=scenario, var_value=None
-2024-09-15 14:53:14 - on_data_node_change triggered with var_name=scenario, var_value=llm_ollama_instruction > response_data
-2024-09-15 14:53:15 - on_data_node_change triggered with var_name=scenario, var_value=llm_ollama_instruction > prompt
-[2024-09-15 15:00:30][Taipy][INFO] Loading configuration. Filename: 'config.toml'
-[2024-09-15 15:00:30][Taipy][INFO] Configuration 'config.toml' successfully loaded.
-[2024-09-15 15:00:31][Taipy][INFO]  * Server reloaded on http://127.0.0.1:5001
-2024-09-15 15:01:51 - Initializing application state.
-2024-09-15 15:02:03 - on_data_node_change triggered with var_name=scenario, var_value=None
-2024-09-15 15:02:04 - on_data_node_change triggered with var_name=scenario, var_value=llm_ollama_instruction > response_data
-2024-09-15 15:02:05 - on_data_node_change triggered with var_name=scenario, var_value=llm_ollama_instruction > prompt
-2024-09-15 15:02:07 - on_data_node_change triggered with var_name=scenario, var_value=None
-2024-09-15 15:02:16 - on_data_node_change triggered with var_name=scenario, var_value=None
-2024-09-15 15:02:17 - on_data_node_change triggered with var_name=scenario, var_value=llm_ollama_instruction > response_data
-2024-09-15 15:02:18 - on_data_node_change triggered with var_name=scenario, var_value=llm_ollama_instruction > prompt
+2024-09-15 20:06:24 - Initializing application state.
+2024-09-15 20:07:41 - Initializing application state.
+2024-09-15 20:13:52 - Initializing application state.
+2024-09-15 20:24:56 - Initializing application state.
+2024-09-15 20:25:12 - on_scenario_change triggered with var_name=scenario, var_value=hjghj
+2024-09-15 20:25:17 - on_scenario_change triggered with var_name=scenario, var_value=ghjghj
+2024-09-15 20:25:18 - on_scenario_change triggered with var_name=scenario, var_value=hjghj
+2024-09-15 20:27:21 - Initializing application state.
+2024-09-15 20:27:21 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-15 20:27:21 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-15 20:27:21 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-15 20:27:28 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-15 20:27:28 - on_scenario_change triggered with var_name=scenario, var_value=None
+2024-09-15 20:27:32 - on_scenario_change triggered with var_name=scenario, var_value=None
+2024-09-15 20:27:43 - on_scenario_change triggered with var_name=scenario, var_value=Ax2
+2024-09-15 20:28:23 - Initializing application state.
+2024-09-15 20:28:24 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-15 20:29:37 - Initializing application state.
+2024-09-15 20:29:37 - on_scenario_change triggered with var_name=scenario, var_value=None
+2024-09-15 20:29:37 - on_scenario_change triggered with var_name=scenario, var_value=None
+2024-09-15 20:29:37 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-15 20:29:37 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-15 20:29:37 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-15 20:29:37 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-15 20:29:50 - on_scenario_change triggered with var_name=scenario, var_value=lökö
+2024-09-15 20:37:26 - Initializing application state.
+2024-09-15 20:37:27 - on_scenario_change triggered with var_name=scenario, var_value=None
+2024-09-15 20:37:27 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-15 20:37:27 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-15 20:37:27 - on_scenario_change triggered with var_name=scenario, var_value=None
+2024-09-15 20:37:27 - on_scenario_change triggered with var_name=scenario, var_value=None
+2024-09-15 20:37:27 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-15 20:37:27 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-15 20:37:27 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-15 20:37:27 - on_scenario_change triggered with var_name=scenario, var_value=None
+2024-09-15 20:37:27 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-15 20:37:27 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-15 20:37:27 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-15 20:37:59 - on_scenario_change triggered with var_name=scenario, var_value=ghhgg
+2024-09-15 20:38:00 - on_scenario_change triggered with var_name=scenario, var_value=hgfhfg
+2024-09-15 20:38:05 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-15 20:38:40 - on_scenario_change triggered with var_name=scenario, var_value=None
+2024-09-15 20:38:42 - on_scenario_change triggered with var_name=scenario, var_value=hgfhfg
+2024-09-15 20:39:08 - Initializing application state.
+2024-09-15 20:39:08 - on_scenario_change triggered with var_name=scenario, var_value=None
+2024-09-15 20:39:08 - on_scenario_change triggered with var_name=scenario, var_value=None
+2024-09-15 20:39:08 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-15 20:39:08 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-15 20:39:08 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-15 20:39:08 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-15 20:39:08 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-15 20:39:08 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-15 20:39:52 - on_scenario_change triggered with var_name=scenario, var_value=dfgdfg
+2024-09-15 20:41:03 - Initializing application state.
+2024-09-15 20:41:04 - on_scenario_change triggered with var_name=scenario, var_value=None
+2024-09-15 20:41:04 - on_scenario_change triggered with var_name=scenario, var_value=None
+2024-09-15 20:41:04 - on_scenario_change triggered with var_name=scenario, var_value=None
+2024-09-15 20:41:04 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-15 20:41:04 - on_scenario_change triggered with var_name=scenario, var_value=None
+2024-09-15 20:41:04 - on_scenario_change triggered with var_name=scenario, var_value=None
+2024-09-15 20:41:04 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-15 20:41:04 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-15 20:41:04 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-15 20:41:04 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-15 20:41:04 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-15 20:41:04 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-15 20:41:04 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-15 20:42:18 - Initializing application state.
+2024-09-15 20:42:19 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-15 20:43:24 - on_scenario_change triggered with var_name=scenario, var_value=zzukjh
+2024-09-15 20:45:59 - Starting application...
+2024-09-15 20:45:59 - Exception occurred: name 'selected_scenario' is not defined
+2024-09-15 20:46:03 - Starting application...
+2024-09-15 20:46:03 - Exception occurred: name 'selected_scenario' is not defined
+2024-09-15 20:46:04 - Initializing application state.
+2024-09-15 20:46:04 - Application state initialized.
+2024-09-15 20:46:04 - on_scenario_change triggered with var_name=scenario, var_value=None
+2024-09-15 20:46:04 - on_scenario_change triggered with var_name=scenario, var_value=None
+2024-09-15 20:46:04 - on_scenario_change triggered with var_name=scenario, var_value=None
+2024-09-15 20:46:04 - on_scenario_change triggered with var_name=scenario, var_value=None
+2024-09-15 20:46:04 - on_scenario_change triggered with var_name=scenario, var_value=None
+2024-09-15 20:46:04 - on_scenario_change triggered with var_name=scenario, var_value=None
+2024-09-15 20:46:04 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-15 20:46:04 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-15 20:46:04 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-15 20:46:04 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-15 20:46:04 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-15 20:46:04 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-15 20:46:04 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-15 20:46:04 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-15 20:46:04 - Loading dynamic scenario for selected_scenario: None
+2024-09-15 20:46:04 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-15 20:46:04 - Loading dynamic scenario for selected_scenario: None
+2024-09-15 20:46:04 - Loading dynamic scenario for selected_scenario: None
+2024-09-15 20:46:04 - Loading dynamic scenario for selected_scenario: None
+2024-09-15 20:46:04 - Loading dynamic scenario for selected_scenario: None
+2024-09-15 20:46:04 - Loading dynamic scenario for selected_scenario: None
+2024-09-15 20:46:04 - Data nodes updated: None
+2024-09-15 20:46:04 - No scenario configuration found for: None
+2024-09-15 20:46:04 - Data nodes updated: None
+2024-09-15 20:46:04 - No scenario configuration found for: None
+2024-09-15 20:46:05 - Data nodes updated: None
+2024-09-15 20:46:05 - No scenario configuration found for: None
+2024-09-15 20:46:05 - Data nodes updated: None
+2024-09-15 20:46:05 - Data nodes updated: None
+2024-09-15 20:46:05 - Data nodes updated: None
+2024-09-15 20:46:05 - No scenario configuration found for: None
+2024-09-15 20:46:05 - Data nodes updated: None
+2024-09-15 20:46:05 - Data nodes updated: None
+2024-09-15 20:46:05 - Data nodes updated: None
+2024-09-15 20:46:05 - Scenario updated: None
+2024-09-15 20:46:05 - No scenario configuration found for: None
+2024-09-15 20:46:05 - No scenario configuration found for: None
+2024-09-15 20:46:05 - Scenario updated: None
+2024-09-15 20:46:05 - Scenario updated: None
+2024-09-15 20:46:05 - Scenario updated: None
+2024-09-15 20:46:05 - Scenario updated: None
+2024-09-15 20:46:05 - Scenario updated: None
+2024-09-15 20:47:30 - on_scenario_change triggered with var_name=scenario, var_value=None
+2024-09-15 20:47:31 - Loading dynamic scenario for selected_scenario: None
+2024-09-15 20:47:30 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-15 20:47:31 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-15 20:47:31 - Data nodes updated: None
+2024-09-15 20:47:31 - Data nodes updated: None
+2024-09-15 20:47:31 - No scenario configuration found for: None
+2024-09-15 20:47:31 - Scenario updated: None
+2024-09-15 20:47:33 - on_scenario_change triggered with var_name=scenario, var_value=jhkk
+2024-09-15 20:47:33 - Loading dynamic scenario for selected_scenario: jhkk
+2024-09-15 20:47:33 - No scenario configuration found for: jhkk
+2024-09-15 20:47:33 - Scenario updated: jhkk
+2024-09-15 20:47:47 - on_scenario_change triggered with var_name=scenario, var_value=jhkhjkhjkhjkj
+2024-09-15 20:47:47 - Loading dynamic scenario for selected_scenario: jhkhjkhjkhjkj
+2024-09-15 20:47:47 - No scenario configuration found for: jhkhjkhjkhjkj
+2024-09-15 20:47:47 - Scenario updated: jhkhjkhjkhjkj
+2024-09-15 20:47:48 - on_scenario_change triggered with var_name=scenario, var_value=jhkk
+2024-09-15 20:47:48 - Loading dynamic scenario for selected_scenario: jhkk
+2024-09-15 20:47:48 - No scenario configuration found for: jhkk
+2024-09-15 20:47:48 - Scenario updated: jhkk
+2024-09-15 20:49:17 - Application started successfully.
+2024-09-15 20:49:17 - Application started successfully.
+2024-09-15 20:49:22 - Starting application...
+2024-09-15 20:49:22 - Exception occurred: name 'selected_scenario' is not defined
+2024-09-15 20:49:26 - Starting application...
+2024-09-15 20:49:26 - Exception occurred: name 'selected_scenario' is not defined
+2024-09-15 20:49:26 - Initializing application state.
+2024-09-15 20:49:26 - Application state initialized.
+2024-09-15 20:49:26 - on_scenario_change triggered with var_name=scenario, var_value=None
+2024-09-15 20:49:26 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-15 20:49:26 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-15 20:49:26 - on_scenario_change triggered with var_name=scenario, var_value=None
+2024-09-15 20:49:26 - on_scenario_change triggered with var_name=scenario, var_value=None
+2024-09-15 20:49:26 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-15 20:49:26 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-15 20:49:26 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-15 20:49:26 - on_scenario_change triggered with var_name=scenario, var_value=None
+2024-09-15 20:49:26 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-15 20:49:26 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-15 20:49:26 - on_scenario_change triggered with var_name=scenario, var_value=None
+2024-09-15 20:49:26 - on_scenario_change triggered with var_name=scenario, var_value=None
+2024-09-15 20:49:27 - Data nodes updated: None
+2024-09-15 20:49:27 - Data nodes updated: None
+2024-09-15 20:49:27 - Data nodes updated: None
+2024-09-15 20:49:27 - Loading dynamic scenario for selected_scenario: None
+2024-09-15 20:49:27 - Loading dynamic scenario for selected_scenario: None
+2024-09-15 20:49:27 - Loading dynamic scenario for selected_scenario: None
+2024-09-15 20:49:27 - Loading dynamic scenario for selected_scenario: None
+2024-09-15 20:49:27 - Loading dynamic scenario for selected_scenario: None
+2024-09-15 20:49:27 - Loading dynamic scenario for selected_scenario: None
+2024-09-15 20:49:27 - Data nodes updated: None
+2024-09-15 20:49:27 - Data nodes updated: None
+2024-09-15 20:49:27 - Data nodes updated: None
+2024-09-15 20:49:27 - Data nodes updated: None
+2024-09-15 20:49:27 - No scenario configuration found for: None
+2024-09-15 20:49:27 - No scenario configuration found for: None
+2024-09-15 20:49:27 - No scenario configuration found for: None
+2024-09-15 20:49:27 - No scenario configuration found for: None
+2024-09-15 20:49:27 - Scenario updated: None
+2024-09-15 20:49:27 - Scenario updated: None
+2024-09-15 20:49:27 - Scenario updated: None
+2024-09-15 20:49:27 - Scenario updated: None
+2024-09-15 20:49:27 - No scenario configuration found for: None
+2024-09-15 20:49:27 - No scenario configuration found for: None
+2024-09-15 20:49:27 - Scenario updated: None
+2024-09-15 20:49:27 - Scenario updated: None
+2024-09-15 20:50:03 - on_scenario_change triggered with var_name=scenario, var_value=None
+2024-09-15 20:50:03 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-15 20:50:03 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-15 20:50:03 - on_scenario_change triggered with var_name=scenario, var_value=None
+2024-09-15 20:50:03 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-15 20:50:03 - Loading dynamic scenario for selected_scenario: None
+2024-09-15 20:50:03 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-15 20:50:03 - Loading dynamic scenario for selected_scenario: None
+2024-09-15 20:50:03 - Data nodes updated: None
+2024-09-15 20:50:03 - No scenario configuration found for: None
+2024-09-15 20:50:03 - Data nodes updated: None
+2024-09-15 20:50:03 - Data nodes updated: None
+2024-09-15 20:50:03 - Data nodes updated: None
+2024-09-15 20:50:03 - No scenario configuration found for: None
+2024-09-15 20:50:03 - Scenario updated: None
+2024-09-15 20:50:04 - Scenario updated: None
+2024-09-15 20:50:24 - on_scenario_change triggered with var_name=scenario, var_value=9999
+2024-09-15 20:50:24 - Loading dynamic scenario for selected_scenario: 9999
+2024-09-15 20:50:24 - No scenario configuration found for: 9999
+2024-09-15 20:50:24 - Scenario updated: 9999
+2024-09-15 20:52:16 - on_scenario_change triggered with var_name=scenario, var_value=asd
+2024-09-15 20:52:16 - Loading dynamic scenario for selected_scenario: asd
+2024-09-15 20:52:16 - No scenario configuration found for: asd
+2024-09-15 20:52:16 - Scenario updated: asd
+2024-09-15 20:52:24 - on_scenario_change triggered with var_name=scenario, var_value=9999
+2024-09-15 20:52:24 - Loading dynamic scenario for selected_scenario: 9999
+2024-09-15 20:52:24 - No scenario configuration found for: 9999
+2024-09-15 20:52:24 - Scenario updated: 9999
+2024-09-15 20:52:25 - on_scenario_change triggered with var_name=scenario, var_value=asd
+2024-09-15 20:52:25 - Loading dynamic scenario for selected_scenario: asd
+2024-09-15 20:52:25 - No scenario configuration found for: asd
+2024-09-15 20:52:25 - Scenario updated: asd
+2024-09-15 20:58:08 - on_scenario_change triggered with var_name=scenario, var_value=9999
+2024-09-15 20:58:08 - Loading dynamic scenario for selected_scenario: 9999
+2024-09-15 20:58:08 - No scenario configuration found for: 9999
+2024-09-15 20:58:09 - Scenario updated: 9999
+2024-09-15 20:58:09 - on_scenario_change triggered with var_name=scenario, var_value=asd
+2024-09-15 20:58:09 - Loading dynamic scenario for selected_scenario: asd
+2024-09-15 20:58:09 - No scenario configuration found for: asd
+2024-09-15 20:58:09 - Scenario updated: asd
+2024-09-15 20:58:15 - Application started successfully.
+2024-09-15 20:58:15 - Application started successfully.
+2024-09-15 20:58:22 - Starting application...
+2024-09-15 20:58:22 - Exception occurred: name 'selected_scenario' is not defined
+2024-09-15 20:58:25 - Starting application...
+2024-09-15 20:58:25 - Exception occurred: name 'selected_scenario' is not defined
+2024-09-15 20:58:26 - Initializing application state.
+2024-09-15 20:58:26 - Application state initialized.
+2024-09-15 20:58:26 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-15 20:58:26 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-15 20:58:26 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-15 20:58:26 - on_scenario_change triggered with var_name=scenario, var_value=None
+2024-09-15 20:58:26 - on_scenario_change triggered with var_name=scenario, var_value=None
+2024-09-15 20:58:26 - on_scenario_change triggered with var_name=scenario, var_value=None
+2024-09-15 20:58:26 - on_scenario_change triggered with var_name=scenario, var_value=None
+2024-09-15 20:58:26 - on_scenario_change triggered with var_name=scenario, var_value=None
+2024-09-15 20:58:26 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-15 20:58:26 - on_scenario_change triggered with var_name=scenario, var_value=None
+2024-09-15 20:58:26 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-15 20:58:26 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-15 20:58:26 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-15 20:58:26 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-15 20:58:26 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-15 20:58:26 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-15 20:58:26 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-15 20:58:26 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-15 20:58:26 - on_scenario_change triggered with var_name=scenario, var_value=None
+2024-09-15 20:58:26 - on_scenario_change triggered with var_name=scenario, var_value=None
+2024-09-15 20:58:27 - Loading dynamic scenario for selected_scenario: None
+2024-09-15 20:58:26 - Loading dynamic scenario for selected_scenario: None
+2024-09-15 20:58:26 - Loading dynamic scenario for selected_scenario: None
+2024-09-15 20:58:27 - Data nodes updated: None
+2024-09-15 20:58:27 - Loading dynamic scenario for selected_scenario: None
+2024-09-15 20:58:26 - Loading dynamic scenario for selected_scenario: None
+2024-09-15 20:58:27 - Loading dynamic scenario for selected_scenario: None
+2024-09-15 20:58:27 - Data nodes updated: None
+2024-09-15 20:58:27 - No scenario configuration found for: None
+2024-09-15 20:58:27 - Data nodes updated: None
+2024-09-15 20:58:27 - Data nodes updated: None
+2024-09-15 20:58:27 - Data nodes updated: None
+2024-09-15 20:58:27 - Data nodes updated: None
+2024-09-15 20:58:27 - Loading dynamic scenario for selected_scenario: None
+2024-09-15 20:58:27 - No scenario configuration found for: None
+2024-09-15 20:58:27 - Data nodes updated: None
+2024-09-15 20:58:27 - Data nodes updated: None
+2024-09-15 20:58:27 - Loading dynamic scenario for selected_scenario: None
+2024-09-15 20:58:27 - Data nodes updated: None
+2024-09-15 20:58:27 - No scenario configuration found for: None
+2024-09-15 20:58:27 - Data nodes updated: None
+2024-09-15 20:58:27 - Data nodes updated: None
+2024-09-15 20:58:27 - No scenario configuration found for: None
+2024-09-15 20:58:27 - Data nodes updated: None
+2024-09-15 20:58:27 - No scenario configuration found for: None
+2024-09-15 20:58:27 - No scenario configuration found for: None
+2024-09-15 20:58:27 - Scenario updated: None
+2024-09-15 20:58:28 - Scenario updated: None
+2024-09-15 20:58:28 - No scenario configuration found for: None
+2024-09-15 20:58:28 - Scenario updated: None
+2024-09-15 20:58:28 - Scenario updated: None
+2024-09-15 20:58:28 - Scenario updated: None
+2024-09-15 20:58:28 - Scenario updated: None
+2024-09-15 20:58:28 - Scenario updated: None
+2024-09-15 20:58:28 - No scenario configuration found for: None
+2024-09-15 20:58:29 - Scenario updated: None
+2024-09-15 21:01:50 - Application started successfully.
+2024-09-15 21:01:51 - Application started successfully.
+2024-09-15 21:02:04 - Starting application...
+2024-09-15 21:02:04 - Exception occurred: name 'selected_scenario' is not defined
+2024-09-15 21:02:07 - Starting application...
+2024-09-15 21:02:07 - Exception occurred: name 'selected_scenario' is not defined
+2024-09-15 21:02:08 - Initializing application state.
+2024-09-15 21:02:08 - Application state initialized.
+2024-09-15 21:02:08 - on_scenario_change triggered with var_name=scenario, var_value=None
+2024-09-15 21:02:08 - on_scenario_change triggered with var_name=scenario, var_value=None
+2024-09-15 21:02:08 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-15 21:02:08 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-15 21:02:08 - Loading dynamic scenario for selected_scenario: None
+2024-09-15 21:02:08 - Data nodes updated: None
+2024-09-15 21:02:08 - Loading dynamic scenario for selected_scenario: None
+2024-09-15 21:02:08 - Data nodes updated: None
+2024-09-15 21:02:09 - No scenario configuration found for: None
+2024-09-15 21:02:09 - No scenario configuration found for: None
+2024-09-15 21:02:09 - Scenario updated: None
+2024-09-15 21:02:09 - Scenario updated: None
+2024-09-15 21:02:34 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-15 21:02:34 - Data nodes updated: None
+2024-09-15 21:02:35 - on_data_node_change triggered with var_name=scenario, var_value=dfsdfdf > response_data
+2024-09-15 21:02:35 - Data nodes updated: dfsdfdf > response_data
+2024-09-15 21:02:36 - on_data_node_change triggered with var_name=scenario, var_value=dfsdfdf > conversation_id
+2024-09-15 21:02:36 - on_data_node_change triggered with var_name=scenario, var_value=dfsdfdf > prompt
+2024-09-15 21:02:36 - Data nodes updated: dfsdfdf > conversation_id
+2024-09-15 21:02:36 - Data nodes updated: dfsdfdf > prompt
+2024-09-15 21:02:37 - on_data_node_change triggered with var_name=scenario, var_value=dfsdfdf > response_data
+2024-09-15 21:02:38 - Data nodes updated: dfsdfdf > response_data
+2024-09-15 21:02:38 - on_data_node_change triggered with var_name=scenario, var_value=dfsdfdf > response_data
+2024-09-15 21:02:38 - Data nodes updated: dfsdfdf > response_data
+2024-09-15 21:02:39 - on_data_node_change triggered with var_name=scenario, var_value=dfsdfdf > response_data
+2024-09-15 21:02:39 - on_data_node_change triggered with var_name=scenario, var_value=dfsdfdf > conversation_id
+2024-09-15 21:02:39 - Data nodes updated: dfsdfdf > response_data
+2024-09-15 21:02:39 - Data nodes updated: dfsdfdf > conversation_id
+2024-09-15 21:02:50 - on_data_node_change triggered with var_name=scenario, var_value=dfsdfdf > response_data
+2024-09-15 21:02:51 - Data nodes updated: dfsdfdf > response_data
+2024-09-15 21:02:56 - on_scenario_change triggered with var_name=scenario, var_value=dfsdfdf
+2024-09-15 21:02:56 - Loading dynamic scenario for selected_scenario: dfsdfdf
+2024-09-15 21:02:56 - No scenario configuration found for: dfsdfdf
+2024-09-15 21:02:57 - Scenario updated: dfsdfdf
+2024-09-15 21:03:08 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-15 21:03:08 - Data nodes updated: None
+2024-09-15 21:03:10 - on_data_node_change triggered with var_name=scenario, var_value=dsfdsf > path_or_data
+2024-09-15 21:03:10 - Data nodes updated: dsfdsf > path_or_data
+2024-09-15 21:03:12 - on_data_node_change triggered with var_name=scenario, var_value=dsfdsf > result_data
+2024-09-15 21:03:13 - Data nodes updated: dsfdsf > result_data
+2024-09-15 21:03:17 - on_data_node_change triggered with var_name=scenario, var_value=dsfdsf > conversation_id
+2024-09-15 21:03:17 - Data nodes updated: dsfdsf > conversation_id
+2024-09-15 21:03:21 - on_data_node_change triggered with var_name=scenario, var_value=dsfdsf > path_or_data
+2024-09-15 21:03:21 - Data nodes updated: dsfdsf > path_or_data
+2024-09-15 21:03:22 - on_data_node_change triggered with var_name=scenario, var_value=dfsdfdf > conversation_id
+2024-09-15 21:03:22 - Data nodes updated: dfsdfdf > conversation_id
+2024-09-15 21:03:23 - on_data_node_change triggered with var_name=scenario, var_value=dfsdfdf > response_data
+2024-09-15 21:03:23 - Data nodes updated: dfsdfdf > response_data
+2024-09-15 21:03:24 - on_data_node_change triggered with var_name=scenario, var_value=dfsdfdf > prompt
+2024-09-15 21:03:24 - Data nodes updated: dfsdfdf > prompt
+2024-09-15 21:03:45 - on_scenario_change triggered with var_name=scenario, var_value=dsfdsf
+2024-09-15 21:03:45 - Loading dynamic scenario for selected_scenario: dsfdsf
+2024-09-15 21:03:45 - No scenario configuration found for: dsfdsf
+2024-09-15 21:03:45 - Scenario updated: dsfdsf
+2024-09-15 21:03:49 - Starting LLM processing of list of prompts...
+2024-09-15 21:03:49 - Loading test questions...
+2024-09-15 21:03:49 - Error loading test questions: Invalid input: expected a dictionary or a valid file path.
+2024-09-15 21:04:12 - Application started successfully.
+2024-09-15 21:04:12 - Application started successfully.
+2024-09-15 21:04:16 - Starting application...
+2024-09-15 21:04:16 - Exception occurred: name 'selected_scenario' is not defined
+2024-09-15 21:04:20 - Starting application...
+2024-09-15 21:04:20 - Exception occurred: name 'selected_scenario' is not defined
+2024-09-15 21:04:21 - Initializing application state.
+2024-09-15 21:04:21 - Application state initialized.
+2024-09-15 21:04:21 - on_scenario_change triggered with var_name=scenario, var_value=None
+2024-09-15 21:04:21 - on_scenario_change triggered with var_name=scenario, var_value=None
+2024-09-15 21:04:21 - on_scenario_change triggered with var_name=scenario, var_value=None
+2024-09-15 21:04:21 - on_scenario_change triggered with var_name=scenario, var_value=None
+2024-09-15 21:04:21 - on_scenario_change triggered with var_name=scenario, var_value=None
+2024-09-15 21:04:21 - on_scenario_change triggered with var_name=scenario, var_value=None
+2024-09-15 21:04:21 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-15 21:04:21 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-15 21:04:21 - on_scenario_change triggered with var_name=scenario, var_value=None
+2024-09-15 21:04:21 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-15 21:04:21 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-15 21:04:21 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-15 21:04:21 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-15 21:04:21 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-15 21:04:21 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-15 21:04:21 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-15 21:04:21 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-15 21:04:21 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-15 21:04:21 - on_scenario_change triggered with var_name=scenario, var_value=None
+2024-09-15 21:04:21 - Loading dynamic scenario for selected_scenario: None
+2024-09-15 21:04:21 - Loading dynamic scenario for selected_scenario: None
+2024-09-15 21:04:21 - Loading dynamic scenario for selected_scenario: None
+2024-09-15 21:04:21 - Loading dynamic scenario for selected_scenario: None
+2024-09-15 21:04:22 - No scenario configuration found for: None
+2024-09-15 21:04:22 - Data nodes updated: None
+2024-09-15 21:04:22 - Loading dynamic scenario for selected_scenario: None
+2024-09-15 21:04:22 - Loading dynamic scenario for selected_scenario: None
+2024-09-15 21:04:21 - Loading dynamic scenario for selected_scenario: None
+2024-09-15 21:04:21 - Data nodes updated: None
+2024-09-15 21:04:22 - Loading dynamic scenario for selected_scenario: None
+2024-09-15 21:04:22 - No scenario configuration found for: None
+2024-09-15 21:04:22 - Data nodes updated: None
+2024-09-15 21:04:22 - Data nodes updated: None
+2024-09-15 21:04:22 - No scenario configuration found for: None
+2024-09-15 21:04:22 - Data nodes updated: None
+2024-09-15 21:04:22 - Data nodes updated: None
+2024-09-15 21:04:22 - Data nodes updated: None
+2024-09-15 21:04:22 - Data nodes updated: None
+2024-09-15 21:04:22 - Data nodes updated: None
+2024-09-15 21:04:22 - No scenario configuration found for: None
+2024-09-15 21:04:22 - No scenario configuration found for: None
+2024-09-15 21:04:22 - No scenario configuration found for: None
+2024-09-15 21:04:22 - Scenario updated: None
+2024-09-15 21:04:22 - Data nodes updated: None
+2024-09-15 21:04:22 - Data nodes updated: None
+2024-09-15 21:04:22 - No scenario configuration found for: None
+2024-09-15 21:04:22 - Scenario updated: None
+2024-09-15 21:04:23 - Scenario updated: None
+2024-09-15 21:04:23 - No scenario configuration found for: None
+2024-09-15 21:04:23 - Scenario updated: None
+2024-09-15 21:04:23 - Scenario updated: None
+2024-09-15 21:04:23 - Scenario updated: None
+2024-09-15 21:04:23 - Scenario updated: None
+2024-09-15 21:04:23 - Scenario updated: None
+2024-09-15 21:04:35 - Application started successfully.
+2024-09-15 21:04:52 - Starting application...
+2024-09-15 21:04:52 - Exception occurred: name 'selected_scenario' is not defined
+2024-09-15 21:04:53 - Initializing application state.
+2024-09-15 21:04:53 - Application state initialized.
+2024-09-15 21:05:07 - on_scenario_change triggered with var_name=scenario, var_value=None
+2024-09-15 21:05:07 - on_scenario_change triggered with var_name=scenario, var_value=None
+2024-09-15 21:05:07 - on_scenario_change triggered with var_name=scenario, var_value=None
+2024-09-15 21:05:07 - on_scenario_change triggered with var_name=scenario, var_value=None
+2024-09-15 21:05:07 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-15 21:05:07 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-15 21:05:07 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-15 21:05:07 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-15 21:05:08 - Loading dynamic scenario for selected_scenario: None
+2024-09-15 21:05:08 - Data nodes updated: None
+2024-09-15 21:05:07 - Data nodes updated: None
+2024-09-15 21:05:08 - Loading dynamic scenario for selected_scenario: None
+2024-09-15 21:05:07 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-15 21:05:08 - Loading dynamic scenario for selected_scenario: None
+2024-09-15 21:05:07 - Loading dynamic scenario for selected_scenario: None
+2024-09-15 21:05:08 - Data nodes updated: None
+2024-09-15 21:05:08 - Data nodes updated: None
+2024-09-15 21:05:08 - No scenario configuration found for: None
+2024-09-15 21:05:08 - No scenario configuration found for: None
+2024-09-15 21:05:08 - Data nodes updated: None
+2024-09-15 21:05:08 - No scenario configuration found for: None
+2024-09-15 21:05:08 - No scenario configuration found for: None
+2024-09-15 21:05:08 - Scenario updated: None
+2024-09-15 21:05:09 - Scenario updated: None
+2024-09-15 21:05:09 - Scenario updated: None
+2024-09-15 21:05:09 - Scenario updated: None
+2024-09-15 21:05:15 - on_scenario_change triggered with var_name=scenario, var_value=sdss
+2024-09-15 21:05:15 - Loading dynamic scenario for selected_scenario: sdss
+2024-09-15 21:05:15 - No scenario configuration found for: sdss
+2024-09-15 21:05:15 - Scenario updated: sdss
+2024-09-15 21:05:19 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-15 21:05:19 - Data nodes updated: None
+2024-09-15 21:05:20 - on_data_node_change triggered with var_name=scenario, var_value=sdss > response_data
+2024-09-15 21:05:21 - Data nodes updated: sdss > response_data
+2024-09-15 21:05:22 - on_data_node_change triggered with var_name=scenario, var_value=sdss > conversation_id
+2024-09-15 21:05:22 - Data nodes updated: sdss > conversation_id
+2024-09-15 21:05:25 - on_data_node_change triggered with var_name=scenario, var_value=sdss > response_data
+2024-09-15 21:05:25 - Data nodes updated: sdss > response_data
+2024-09-15 21:05:27 - on_data_node_change triggered with var_name=scenario, var_value=sdss > prompt
+2024-09-15 21:05:28 - Data nodes updated: sdss > prompt
+2024-09-15 21:07:03 - Application started successfully.
+2024-09-15 21:07:08 - Starting application...
+2024-09-15 21:07:08 - Exception occurred: name 'selected_scenario' is not defined
+2024-09-15 21:07:08 - Initializing application state.
+2024-09-15 21:07:09 - Application state initialized.
+2024-09-15 21:07:09 - on_scenario_change triggered with var_name=scenario, var_value=None
+2024-09-15 21:07:09 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-15 21:07:09 - on_scenario_change triggered with var_name=scenario, var_value=None
+2024-09-15 21:07:09 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-15 21:07:09 - on_scenario_change triggered with var_name=scenario, var_value=None
+2024-09-15 21:07:09 - on_scenario_change triggered with var_name=scenario, var_value=None
+2024-09-15 21:07:09 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-15 21:07:09 - on_scenario_change triggered with var_name=scenario, var_value=None
+2024-09-15 21:07:09 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-15 21:07:09 - on_scenario_change triggered with var_name=scenario, var_value=None
+2024-09-15 21:07:09 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-15 21:07:09 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-15 21:07:09 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-15 21:07:09 - Loading dynamic scenario for selected_scenario: None
+2024-09-15 21:07:09 - Loading dynamic scenario for selected_scenario: None
+2024-09-15 21:07:09 - Loading dynamic scenario for selected_scenario: None
+2024-09-15 21:07:09 - Data nodes updated: None
+2024-09-15 21:07:09 - Data nodes updated: None
+2024-09-15 21:07:09 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-15 21:07:09 - Loading dynamic scenario for selected_scenario: None
+2024-09-15 21:07:09 - Loading dynamic scenario for selected_scenario: None
+2024-09-15 21:07:09 - Data nodes updated: None
+2024-09-15 21:07:09 - Loading dynamic scenario for selected_scenario: None
+2024-09-15 21:07:09 - Data nodes updated: None
+2024-09-15 21:07:09 - Data nodes updated: None
+2024-09-15 21:07:09 - No scenario configuration found for: None
+2024-09-15 21:07:09 - No scenario configuration found for: None
+2024-09-15 21:07:09 - Data nodes updated: None
+2024-09-15 21:07:09 - Data nodes updated: None
+2024-09-15 21:07:09 - No scenario configuration found for: None
+2024-09-15 21:07:09 - No scenario configuration found for: None
+2024-09-15 21:07:09 - No scenario configuration found for: None
+2024-09-15 21:07:09 - No scenario configuration found for: None
+2024-09-15 21:07:09 - Data nodes updated: None
+2024-09-15 21:07:30 - on_scenario_change triggered with var_name=scenario, var_value=None
+2024-09-15 21:07:30 - on_scenario_change triggered with var_name=scenario, var_value=None
+2024-09-15 21:07:30 - on_scenario_change triggered with var_name=scenario, var_value=None
+2024-09-15 21:07:30 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-15 21:07:30 - on_scenario_change triggered with var_name=scenario, var_value=None
+2024-09-15 21:07:30 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-15 21:07:30 - on_scenario_change triggered with var_name=scenario, var_value=None
+2024-09-15 21:07:30 - on_scenario_change triggered with var_name=scenario, var_value=None
+2024-09-15 21:07:30 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-15 21:07:31 - Loading dynamic scenario for selected_scenario: None
+2024-09-15 21:07:30 - on_scenario_change triggered with var_name=scenario, var_value=None
+2024-09-15 21:07:31 - Data nodes updated: None
+2024-09-15 21:07:30 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-15 21:07:30 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-15 21:07:30 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-15 21:07:30 - Loading dynamic scenario for selected_scenario: None
+2024-09-15 21:07:30 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-15 21:07:30 - Loading dynamic scenario for selected_scenario: None
+2024-09-15 21:07:30 - Loading dynamic scenario for selected_scenario: None
+2024-09-15 21:07:30 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-15 21:07:30 - Loading dynamic scenario for selected_scenario: None
+2024-09-15 21:07:30 - Data nodes updated: None
+2024-09-15 21:07:31 - No scenario configuration found for: None
+2024-09-15 21:07:31 - Loading dynamic scenario for selected_scenario: None
+2024-09-15 21:07:31 - Loading dynamic scenario for selected_scenario: None
+2024-09-15 21:07:31 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-15 21:07:31 - on_scenario_change triggered with var_name=scenario, var_value=None
+2024-09-15 21:07:31 - Data nodes updated: None
+2024-09-15 21:07:31 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-15 21:07:31 - No scenario configuration found for: None
+2024-09-15 21:07:31 - No scenario configuration found for: None
+2024-09-15 21:07:31 - No scenario configuration found for: None
+2024-09-15 21:07:31 - No scenario configuration found for: None
+2024-09-15 21:07:31 - No scenario configuration found for: None
+2024-09-15 21:07:31 - No scenario configuration found for: None
+2024-09-15 21:07:31 - Data nodes updated: None
+2024-09-15 21:07:32 - Data nodes updated: None
+2024-09-15 21:07:32 - Loading dynamic scenario for selected_scenario: None
+2024-09-15 21:07:32 - Data nodes updated: None
+2024-09-15 21:07:32 - Data nodes updated: None
+2024-09-15 21:07:32 - Data nodes updated: None
+2024-09-15 21:07:32 - Data nodes updated: None
+2024-09-15 21:07:32 - Data nodes updated: None
+2024-09-15 21:07:32 - No scenario configuration found for: None
+2024-09-15 21:07:40 - on_scenario_change triggered with var_name=scenario, var_value=Flowise
+2024-09-15 21:07:40 - Loading dynamic scenario for selected_scenario: Flowise
+2024-09-15 21:07:40 - No scenario configuration found for: Flowise
+2024-09-15 21:09:17 - Application started successfully.
+2024-09-15 21:09:22 - Starting application...
+2024-09-15 21:09:22 - Exception occurred: name 'selected_scenario' is not defined
+2024-09-15 21:09:23 - Initializing application state.
+2024-09-15 21:09:23 - Application state initialized.
+2024-09-15 21:09:23 - on_scenario_change triggered with var_name=scenario, var_value=None
+2024-09-15 21:09:23 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-15 21:09:23 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-15 21:09:23 - Loading dynamic scenario for selected_scenario: None
+2024-09-15 21:09:23 - No scenario configuration found for: None
+2024-09-15 21:09:23 - Data nodes updated: None
+2024-09-15 21:09:23 - Data nodes updated: None
+2024-09-15 21:09:23 - Scenario updated: None
+2024-09-15 21:09:37 - on_scenario_change triggered with var_name=scenario, var_value=Vsewolod Schmidtdf
+2024-09-15 21:09:38 - Loading dynamic scenario for selected_scenario: Vsewolod Schmidtdf
+2024-09-15 21:09:38 - No scenario configuration found for: Vsewolod Schmidtdf
+2024-09-15 21:09:38 - Scenario updated: Vsewolod Schmidtdf
+2024-09-15 21:15:11 - Application started successfully.
+2024-09-15 21:15:16 - Starting application...
+2024-09-15 21:15:16 - Exception occurred: name 'selected_scenario' is not defined
+2024-09-15 21:15:17 - Initializing application state.
+2024-09-15 21:15:17 - Application state initialized.
+2024-09-15 21:16:17 - Application started successfully.
+2024-09-15 21:16:20 - Starting application...
+2024-09-15 21:16:21 - Initializing application state.
+2024-09-15 21:16:21 - Application state initialized.
+2024-09-15 21:16:52 - Application started successfully.
+2024-09-15 21:16:56 - Starting application...
+2024-09-15 21:16:58 - Initializing application state.
+2024-09-15 21:16:58 - Application state initialized.
+2024-09-15 21:16:58 - on_scenario_change triggered with var_name=scenario, var_value=None
+2024-09-15 21:16:58 - Loading dynamic scenario for selected_scenario: None
+2024-09-15 21:16:58 - No scenario configuration found for: None
+2024-09-15 21:16:58 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-15 21:16:58 - Scenario updated: None
+2024-09-15 21:16:58 - on_scenario_change triggered with var_name=scenario, var_value=None
+2024-09-15 21:16:58 - Loading dynamic scenario for selected_scenario: None
+2024-09-15 21:16:58 - No scenario configuration found for: None
+2024-09-15 21:16:58 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-15 21:16:58 - on_scenario_change triggered with var_name=scenario, var_value=None
+2024-09-15 21:16:58 - Loading dynamic scenario for selected_scenario: None
+2024-09-15 21:16:58 - No scenario configuration found for: None
+2024-09-15 21:16:58 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-15 21:16:58 - Data nodes updated: None
+2024-09-15 21:16:58 - Scenario updated: None
+2024-09-15 21:16:58 - Data nodes updated: None
+2024-09-15 21:16:58 - Scenario updated: None
+2024-09-15 21:16:58 - Data nodes updated: None
+2024-09-15 21:29:15 - on_scenario_change triggered with var_name=scenario, var_value=None
+2024-09-15 21:29:15 - Loading dynamic scenario for selected_scenario: None
+2024-09-15 21:29:15 - No scenario configuration found for: None
+2024-09-15 21:29:15 - on_scenario_change triggered with var_name=scenario, var_value=None
+2024-09-15 21:29:15 - Loading dynamic scenario for selected_scenario: None
+2024-09-15 21:29:15 - No scenario configuration found for: None
+2024-09-15 21:29:15 - on_scenario_change triggered with var_name=scenario, var_value=None
+2024-09-15 21:29:15 - Loading dynamic scenario for selected_scenario: None
+2024-09-15 21:29:15 - No scenario configuration found for: None
+2024-09-15 21:29:15 - on_scenario_change triggered with var_name=scenario, var_value=None
+2024-09-15 21:29:15 - Loading dynamic scenario for selected_scenario: None
+2024-09-15 21:29:15 - No scenario configuration found for: None
+2024-09-15 21:29:15 - on_scenario_change triggered with var_name=scenario, var_value=None
+2024-09-15 21:29:15 - Loading dynamic scenario for selected_scenario: None
+2024-09-15 21:29:15 - No scenario configuration found for: None
+2024-09-15 21:29:15 - on_scenario_change triggered with var_name=scenario, var_value=None
+2024-09-15 21:29:15 - Loading dynamic scenario for selected_scenario: None
+2024-09-15 21:29:15 - No scenario configuration found for: None
+2024-09-15 21:29:15 - on_scenario_change triggered with var_name=scenario, var_value=None
+2024-09-15 21:29:15 - Loading dynamic scenario for selected_scenario: None
+2024-09-15 21:29:15 - No scenario configuration found for: None
+2024-09-15 21:29:15 - on_scenario_change triggered with var_name=scenario, var_value=None
+2024-09-15 21:29:15 - Loading dynamic scenario for selected_scenario: None
+2024-09-15 21:29:15 - No scenario configuration found for: None
+2024-09-15 21:29:15 - Scenario updated: None
+2024-09-15 21:29:16 - Scenario updated: None
+2024-09-15 21:29:16 - Scenario updated: None
+2024-09-15 21:29:16 - Scenario updated: None
+2024-09-15 21:29:16 - Scenario updated: None
+2024-09-15 21:29:16 - Scenario updated: None
+2024-09-15 21:29:16 - Scenario updated: None
+2024-09-15 21:29:16 - Scenario updated: None
+2024-09-15 21:29:16 - on_scenario_change triggered with var_name=scenario, var_value=None
+2024-09-15 21:29:16 - Loading dynamic scenario for selected_scenario: None
+2024-09-15 21:29:16 - No scenario configuration found for: None
+2024-09-15 21:29:16 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-15 21:29:16 - on_scenario_change triggered with var_name=scenario, var_value=None
+2024-09-15 21:29:16 - Loading dynamic scenario for selected_scenario: None
+2024-09-15 21:29:16 - No scenario configuration found for: None
+2024-09-15 21:29:16 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-15 21:29:16 - on_scenario_change triggered with var_name=scenario, var_value=None
+2024-09-15 21:29:16 - Loading dynamic scenario for selected_scenario: None
+2024-09-15 21:29:16 - No scenario configuration found for: None
+2024-09-15 21:29:16 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-15 21:29:16 - on_scenario_change triggered with var_name=scenario, var_value=None
+2024-09-15 21:29:16 - Loading dynamic scenario for selected_scenario: None
+2024-09-15 21:29:16 - No scenario configuration found for: None
+2024-09-15 21:29:16 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-15 21:29:16 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-15 21:29:16 - on_scenario_change triggered with var_name=scenario, var_value=None
+2024-09-15 21:29:16 - Loading dynamic scenario for selected_scenario: None
+2024-09-15 21:29:16 - No scenario configuration found for: None
+2024-09-15 21:29:16 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-15 21:29:16 - Scenario updated: None
+2024-09-15 21:29:16 - Data nodes updated: None
+2024-09-15 21:29:16 - Scenario updated: None
+2024-09-15 21:29:16 - Data nodes updated: None
+2024-09-15 21:29:16 - Scenario updated: None
+2024-09-15 21:29:16 - Data nodes updated: None
+2024-09-15 21:29:16 - Scenario updated: None
+2024-09-15 21:29:16 - Data nodes updated: None
+2024-09-15 21:29:16 - Data nodes updated: None
+2024-09-15 21:29:16 - Scenario updated: None
+2024-09-15 21:29:16 - Data nodes updated: None
+2024-09-15 21:29:16 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-15 21:29:17 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-15 21:29:17 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-15 21:29:17 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-15 21:29:17 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-15 21:29:17 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-15 21:29:17 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-15 21:29:17 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-15 21:29:17 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-15 21:29:17 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-15 21:29:17 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-15 21:29:17 - Data nodes updated: None
+2024-09-15 21:29:17 - Data nodes updated: None
+2024-09-15 21:29:17 - Data nodes updated: None
+2024-09-15 21:29:17 - Data nodes updated: None
+2024-09-15 21:29:17 - Data nodes updated: None
+2024-09-15 21:29:17 - Data nodes updated: None
+2024-09-15 21:29:17 - Data nodes updated: None
+2024-09-15 21:29:17 - Data nodes updated: None
+2024-09-15 21:29:17 - Data nodes updated: None
+2024-09-15 21:29:17 - Data nodes updated: None
+2024-09-15 21:29:17 - Data nodes updated: None
+2024-09-15 21:29:24 - on_scenario_change triggered with var_name=scenario, var_value=Sewa
+2024-09-15 21:29:24 - Loading dynamic scenario for selected_scenario: Sewa
+2024-09-15 21:29:24 - No scenario configuration found for: Sewa
+2024-09-15 21:29:24 - Scenario updated: Sewa
+2024-09-15 21:30:37 - Initializing application state.
+2024-09-15 21:30:37 - Loading scenarios.
+2024-09-15 21:30:37 - Loaded scenarios: ['default', 'llm_ollama_instruction', 'llm_oobabooga_instruction', 'process_list_of_prompts']
+2024-09-15 21:30:45 - on_scenario_change triggered with var_name=scenario, var_value=None
+2024-09-15 21:30:45 - on_scenario_change triggered with var_name=scenario, var_value=None
+2024-09-15 21:30:45 - on_scenario_change triggered with var_name=scenario, var_value=None
+2024-09-15 21:30:45 - on_scenario_change triggered with var_name=scenario, var_value=None
+2024-09-15 21:30:45 - on_scenario_change triggered with var_name=scenario, var_value=None
+2024-09-15 21:30:45 - on_scenario_change triggered with var_name=scenario, var_value=None
+2024-09-15 21:30:46 - on_scenario_change triggered with var_name=scenario, var_value=None
+2024-09-15 21:30:45 - on_scenario_change triggered with var_name=scenario, var_value=None
+2024-09-15 21:30:46 - on_scenario_change triggered with var_name=scenario, var_value=None
+2024-09-15 21:30:46 - on_scenario_change triggered with var_name=scenario, var_value=None
+2024-09-15 21:30:45 - on_scenario_change triggered with var_name=scenario, var_value=None
+2024-09-15 21:30:46 - on_scenario_change triggered with var_name=scenario, var_value=None
+2024-09-15 21:30:46 - on_scenario_change triggered with var_name=scenario, var_value=None
+2024-09-15 21:30:46 - on_scenario_change triggered with var_name=scenario, var_value=None
+2024-09-15 21:30:46 - on_scenario_change triggered with var_name=scenario, var_value=None
+2024-09-15 21:30:46 - on_scenario_change triggered with var_name=scenario, var_value=None
+2024-09-15 21:30:46 - on_scenario_change triggered with var_name=scenario, var_value=None
+2024-09-15 21:30:46 - Error changing scenario: None
+2024-09-15 21:30:46 - Error changing scenario: None
+2024-09-15 21:30:46 - on_scenario_change triggered with var_name=scenario, var_value=None
+2024-09-15 21:30:46 - on_scenario_change triggered with var_name=scenario, var_value=None
+2024-09-15 21:30:46 - Error changing scenario: None
+2024-09-15 21:30:46 - on_scenario_change triggered with var_name=scenario, var_value=None
+2024-09-15 21:30:46 - Error changing scenario: None
+2024-09-15 21:30:46 - Error changing scenario: None
+2024-09-15 21:30:46 - Error changing scenario: None
+2024-09-15 21:30:46 - Error changing scenario: None
+2024-09-15 21:30:46 - Error changing scenario: None
+2024-09-15 21:30:46 - Error changing scenario: None
+2024-09-15 21:30:46 - Error changing scenario: None
+2024-09-15 21:30:46 - Error changing scenario: None
+2024-09-15 21:30:46 - on_scenario_change triggered with var_name=scenario, var_value=None
+2024-09-15 21:30:46 - Error changing scenario: None
+2024-09-15 21:30:46 - Error changing scenario: None
+2024-09-15 21:30:47 - Error changing scenario: None
+2024-09-15 21:30:47 - Error changing scenario: None
+2024-09-15 21:30:46 - Error changing scenario: None
+2024-09-15 21:30:47 - Error changing scenario: None
+2024-09-15 21:30:48 - Error changing scenario: None
+2024-09-15 21:30:48 - Error changing scenario: None
+2024-09-15 21:30:48 - Error changing scenario: None
+2024-09-15 21:30:48 - Error changing scenario: None
+2024-09-15 21:31:06 - Saving scenario data.
+2024-09-15 21:31:20 - Initializing application state.
+2024-09-15 21:31:20 - Loading scenarios.
+2024-09-15 21:31:20 - Loaded scenarios: ['default', 'llm_ollama_instruction', 'llm_oobabooga_instruction', 'process_list_of_prompts']
+2024-09-15 21:34:50 - Initializing application state.
+2024-09-15 21:34:50 - Loading scenarios.
+2024-09-15 21:34:50 - Loaded scenarios: ['default', 'llm_ollama_instruction', 'llm_oobabooga_instruction', 'process_list_of_prompts']
+2024-09-15 21:36:24 - Initializing application state.
+2024-09-15 21:36:24 - Loading scenarios.
+2024-09-15 21:36:24 - Loaded scenarios: ['default', 'llm_ollama_instruction', 'llm_oobabooga_instruction', 'process_list_of_prompts']
+2024-09-15 21:36:26 - on_scenario_change triggered with var_name=scenario, var_value=xCocktail
+2024-09-15 21:36:26 - Error changing scenario: xCocktail
+2024-09-15 21:37:11 - Initializing application state.
+2024-09-15 21:37:11 - Loading scenarios.
+2024-09-15 21:37:11 - Loaded scenarios: ['default', 'llm_ollama_instruction', 'llm_oobabooga_instruction', 'process_list_of_prompts']
+2024-09-15 21:37:13 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-15 21:37:14 - on_data_node_change triggered with var_name=scenario, var_value=xCocktail > conversation_id
+2024-09-15 21:37:14 - on_data_node_change triggered with var_name=scenario, var_value=xCocktail > prompt
+2024-09-15 21:37:15 - on_scenario_change triggered with var_name=scenario, var_value=xCocktail
+2024-09-15 21:37:15 - Error changing scenario: xCocktail
+2024-09-15 21:37:18 - on_data_node_change triggered with var_name=scenario, var_value=xCocktail > conversation_id
+2024-09-15 21:37:19 - on_data_node_change triggered with var_name=scenario, var_value=xCocktail > prompt
+2024-09-15 21:37:50 - Initializing application state.
+2024-09-15 21:37:50 - Loading scenarios.
+2024-09-15 21:37:50 - Loaded scenarios: ['default', 'llm_ollama_instruction', 'llm_oobabooga_instruction', 'process_list_of_prompts']
+2024-09-15 21:37:59 - on_scenario_change triggered with var_name=scenario, var_value=xCocktail
+2024-09-15 21:37:59 - Error changing scenario: xCocktail
+2024-09-15 21:38:04 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-15 21:38:04 - Data nodes updated: None
+2024-09-15 21:38:04 - on_data_node_change triggered with var_name=scenario, var_value=xCocktail > prompt
+2024-09-15 21:38:05 - Data nodes updated: xCocktail > prompt
+2024-09-15 21:38:07 - on_data_node_change triggered with var_name=scenario, var_value=xCocktail > conversation_id
+2024-09-15 21:38:07 - Data nodes updated: xCocktail > conversation_id
+2024-09-16 00:09:31 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-16 00:09:31 - Data nodes updated: None
+2024-09-16 00:09:32 - on_data_node_change triggered with var_name=scenario, var_value=xCocktail > conversation_id
+2024-09-16 00:09:32 - Data nodes updated: xCocktail > conversation_id
+2024-09-16 00:09:32 - on_data_node_change triggered with var_name=scenario, var_value=xCocktail > prompt
+2024-09-16 00:09:32 - Data nodes updated: xCocktail > prompt
+2024-09-16 00:09:34 - on_data_node_change triggered with var_name=scenario, var_value=xCocktail > response_data
+2024-09-16 00:09:34 - Data nodes updated: xCocktail > response_data
+2024-09-16 00:09:40 - on_scenario_change triggered with var_name=scenario, var_value=xCocktail
+2024-09-16 00:09:40 - Error changing scenario: xCocktail
+2024-09-16 00:12:14 - Initializing application state.
+2024-09-16 00:12:14 - Loading scenarios.
+2024-09-16 00:12:14 - Loaded scenarios: ['default', 'llm_ollama_instruction', 'llm_oobabooga_instruction', 'process_list_of_prompts']
+2024-09-16 00:12:27 - Initializing application state.
+2024-09-16 00:12:27 - Loading scenarios.
+2024-09-16 00:12:27 - Loaded scenarios: ['default', 'llm_ollama_instruction', 'llm_oobabooga_instruction', 'process_list_of_prompts']
+2024-09-16 00:12:29 - on_scenario_change triggered with var_name=scenario, var_value=xCocktail
+2024-09-16 00:12:30 - Error changing scenario: xCocktail
+2024-09-16 00:16:10 - Initializing application state.
+2024-09-16 00:16:10 - Loading scenarios.
+2024-09-16 00:16:10 - Loaded scenarios: ['default', 'llm_ollama_instruction', 'llm_oobabooga_instruction', 'process_list_of_prompts']
+2024-09-16 00:16:13 - on_scenario_change triggered with var_name=scenario, var_value=xCocktail
+2024-09-16 00:16:13 - Error changing scenario: xCocktail
+2024-09-16 00:16:43 - Initializing application state.
+2024-09-16 00:16:43 - Loading scenarios.
+2024-09-16 00:16:43 - Loaded scenarios: ['default', 'llm_ollama_instruction', 'llm_oobabooga_instruction', 'process_list_of_prompts']
+2024-09-16 00:16:45 - on_scenario_change triggered with var_name=scenario, var_value=xCocktail
+2024-09-16 00:16:45 - Error changing scenario: xCocktail
+2024-09-16 00:16:49 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-16 00:16:49 - Data nodes updated: None
+2024-09-16 00:16:50 - on_data_node_change triggered with var_name=scenario, var_value=xCocktail > prompt
+2024-09-16 00:16:50 - Data nodes updated: xCocktail > prompt
+2024-09-16 00:16:51 - on_data_node_change triggered with var_name=scenario, var_value=xCocktail > response_data
+2024-09-16 00:16:51 - Data nodes updated: xCocktail > response_data
+2024-09-16 00:16:52 - on_data_node_change triggered with var_name=scenario, var_value=xCocktail > conversation_id
+2024-09-16 00:16:52 - Data nodes updated: xCocktail > conversation_id
+2024-09-16 00:16:54 - on_data_node_change triggered with var_name=scenario, var_value=xCocktail > response_data
+2024-09-16 00:16:54 - Data nodes updated: xCocktail > response_data
+2024-09-16 00:20:12 - Initializing application state.
+2024-09-16 00:20:12 - Loading scenarios.
+2024-09-16 00:20:12 - Loaded scenarios: ['default', 'llm_ollama_instruction', 'llm_oobabooga_instruction', 'process_list_of_prompts']
+2024-09-16 00:20:22 - on_scenario_change triggered with var_name=scenario, var_value=xCocktail
+2024-09-16 00:20:23 - Error changing scenario: xCocktail
+2024-09-16 00:20:23 - on_scenario_change triggered with var_name=scenario, var_value=xCocktail
+2024-09-16 00:20:23 - Error changing scenario: xCocktail
+2024-09-16 00:20:29 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-16 00:20:29 - Data nodes updated: None
+2024-09-16 00:20:30 - on_data_node_change triggered with var_name=scenario, var_value=xCocktail > prompt
+2024-09-16 00:20:30 - Data nodes updated: xCocktail > prompt
+2024-09-16 00:20:32 - on_data_node_change triggered with var_name=scenario, var_value=xCocktail > conversation_id
+2024-09-16 00:20:32 - Data nodes updated: xCocktail > conversation_id
+2024-09-16 00:20:34 - on_data_node_change triggered with var_name=scenario, var_value=xCocktail > response_data
+2024-09-16 00:20:34 - Data nodes updated: xCocktail > response_data
+2024-09-16 00:20:35 - on_data_node_change triggered with var_name=scenario, var_value=xCocktail > conversation_id
+2024-09-16 00:20:35 - Data nodes updated: xCocktail > conversation_id
+2024-09-16 00:21:20 - Initializing application state.
+2024-09-16 00:21:20 - Loading scenarios.
+2024-09-16 00:21:20 - Loaded scenarios: ['default', 'llm_ollama_instruction', 'llm_oobabooga_instruction', 'process_list_of_prompts']
+2024-09-16 00:21:22 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-16 00:21:22 - Data nodes updated: None
+2024-09-16 00:21:22 - on_data_node_change triggered with var_name=scenario, var_value=xCocktail > conversation_id
+2024-09-16 00:21:22 - Data nodes updated: xCocktail > conversation_id
+2024-09-16 00:21:24 - on_scenario_change triggered with var_name=scenario, var_value=xCocktail
+2024-09-16 00:21:24 - Error changing scenario: xCocktail
+2024-09-16 00:21:33 - on_data_node_change triggered with var_name=scenario, var_value=xCocktail > prompt
+2024-09-16 00:21:33 - Data nodes updated: xCocktail > prompt
+2024-09-16 00:21:34 - on_data_node_change triggered with var_name=scenario, var_value=xCocktail > response_data
+2024-09-16 00:21:34 - Data nodes updated: xCocktail > response_data
+2024-09-16 00:21:35 - on_data_node_change triggered with var_name=scenario, var_value=xCocktail > conversation_id
+2024-09-16 00:21:35 - Data nodes updated: xCocktail > conversation_id
+2024-09-16 00:21:36 - on_data_node_change triggered with var_name=scenario, var_value=xCocktail > prompt
+2024-09-16 00:21:36 - Data nodes updated: xCocktail > prompt
+2024-09-16 00:22:19 - Initializing application state.
+2024-09-16 00:22:19 - Loading scenarios.
+2024-09-16 00:22:19 - Loaded scenarios: ['default', 'llm_ollama_instruction', 'llm_oobabooga_instruction', 'process_list_of_prompts']
+2024-09-16 00:22:21 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-16 00:22:21 - Data nodes updated: None
+2024-09-16 00:22:22 - on_data_node_change triggered with var_name=scenario, var_value=xCocktail > prompt
+2024-09-16 00:22:22 - Data nodes updated: xCocktail > prompt
+2024-09-16 00:22:23 - on_data_node_change triggered with var_name=scenario, var_value=xCocktail > response_data
+2024-09-16 00:22:23 - Data nodes updated: xCocktail > response_data
+2024-09-16 00:22:24 - on_data_node_change triggered with var_name=scenario, var_value=xCocktail > prompt
+2024-09-16 00:22:24 - Data nodes updated: xCocktail > prompt
+2024-09-16 00:22:25 - on_scenario_change triggered with var_name=scenario, var_value=xCocktail
+2024-09-16 00:22:25 - Error changing scenario: xCocktail
+2024-09-16 00:23:58 - Initializing application state.
+2024-09-16 00:23:58 - Loading scenarios.
+2024-09-16 00:23:58 - Loaded scenarios: ['default', 'llm_ollama_instruction', 'llm_oobabooga_instruction', 'process_list_of_prompts']
+2024-09-16 00:24:00 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-16 00:24:00 - Data nodes updated: None
+2024-09-16 00:24:06 - on_data_node_change triggered with var_name=scenario, var_value=xCocktail > prompt
+2024-09-16 00:24:06 - Data nodes updated: xCocktail > prompt
+2024-09-16 00:24:08 - on_data_node_change triggered with var_name=scenario, var_value=xCocktail > response_data
+2024-09-16 00:24:08 - Data nodes updated: xCocktail > response_data
+2024-09-16 00:24:09 - on_scenario_change triggered with var_name=scenario, var_value=xCocktail
+2024-09-16 00:24:09 - Error changing scenario: xCocktail
+2024-09-16 00:26:02 - Initializing application state.
+2024-09-16 00:26:02 - Loading scenarios.
+2024-09-16 00:26:02 - Loaded scenarios: ['default', 'llm_ollama_instruction', 'llm_oobabooga_instruction', 'process_list_of_prompts']
+2024-09-16 00:26:06 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-16 00:26:06 - Data nodes updated: None
+2024-09-16 00:26:07 - on_data_node_change triggered with var_name=scenario, var_value=xCocktail > prompt
+2024-09-16 00:26:07 - Data nodes updated: xCocktail > prompt
+2024-09-16 00:26:08 - on_data_node_change triggered with var_name=scenario, var_value=xCocktail > response_data
+2024-09-16 00:26:08 - Data nodes updated: xCocktail > response_data
+2024-09-16 00:26:10 - on_data_node_change triggered with var_name=scenario, var_value=xCocktail > conversation_id
+2024-09-16 00:26:10 - Data nodes updated: xCocktail > conversation_id
+2024-09-16 00:26:11 - on_scenario_change triggered with var_name=scenario, var_value=xCocktail
+2024-09-16 00:26:11 - Error changing scenario: xCocktail
+2024-09-16 00:26:15 - on_data_node_change triggered with var_name=scenario, var_value=xCocktail > prompt
+2024-09-16 00:26:15 - Data nodes updated: xCocktail > prompt
+2024-09-16 00:26:16 - on_data_node_change triggered with var_name=scenario, var_value=xCocktail > conversation_id
+2024-09-16 00:26:16 - Data nodes updated: xCocktail > conversation_id
+2024-09-16 00:26:17 - on_data_node_change triggered with var_name=scenario, var_value=xCocktail > prompt
+2024-09-16 00:26:17 - Data nodes updated: xCocktail > prompt
+2024-09-16 00:26:18 - on_data_node_change triggered with var_name=scenario, var_value=xCocktail > response_data
+2024-09-16 00:26:18 - Data nodes updated: xCocktail > response_data
+2024-09-16 00:26:25 - on_scenario_change triggered with var_name=scenario, var_value=xCocktail
+2024-09-16 00:26:25 - Error changing scenario: xCocktail
+2024-09-16 00:26:50 - Initializing application state.
+2024-09-16 00:26:50 - Loading scenarios.
+2024-09-16 00:26:50 - Loaded scenarios: ['default', 'llm_ollama_instruction', 'llm_oobabooga_instruction', 'process_list_of_prompts']
+2024-09-16 00:27:01 - on_scenario_change triggered with var_name=scenario, var_value=xCocktail
+2024-09-16 00:27:01 - Error changing scenario: xCocktail
+2024-09-16 00:27:13 - on_scenario_change triggered with var_name=scenario, var_value=xCocktail
+2024-09-16 00:27:13 - Error changing scenario: xCocktail
+2024-09-16 00:27:16 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-16 00:27:16 - Data nodes updated: None
+2024-09-16 00:27:22 - on_data_node_change triggered with var_name=scenario, var_value=xCocktail > conversation_id
+2024-09-16 00:27:22 - Data nodes updated: xCocktail > conversation_id
+2024-09-16 00:27:23 - on_data_node_change triggered with var_name=scenario, var_value=xCocktail > prompt
+2024-09-16 00:27:23 - Data nodes updated: xCocktail > prompt
+2024-09-16 00:28:36 - Initializing application state.
+2024-09-16 00:28:36 - Loading scenarios.
+2024-09-16 00:28:36 - Loaded scenarios: ['default', 'llm_ollama_instruction', 'llm_oobabooga_instruction', 'process_list_of_prompts']
+2024-09-16 00:28:39 - on_scenario_change triggered with var_name=scenario, var_value=xCocktail
+2024-09-16 00:28:39 - Error changing scenario: xCocktail
+2024-09-16 00:28:48 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-16 00:28:48 - Data nodes updated: None
+2024-09-16 00:28:49 - on_data_node_change triggered with var_name=scenario, var_value=xCocktail > response_data
+2024-09-16 00:28:49 - Data nodes updated: xCocktail > response_data
+2024-09-16 00:29:22 - Initializing application state.
+2024-09-16 00:29:22 - Loading scenarios.
+2024-09-16 00:29:22 - Loaded scenarios: ['default', 'llm_ollama_instruction', 'llm_oobabooga_instruction', 'process_list_of_prompts']
+2024-09-16 00:29:25 - on_scenario_change triggered with var_name=scenario, var_value=xCocktail
+2024-09-16 00:29:25 - Error changing scenario: xCocktail
+2024-09-16 00:30:07 - Initializing application state.
+2024-09-16 00:30:07 - Loading scenarios.
+2024-09-16 00:30:07 - Loaded scenarios: ['default', 'llm_ollama_instruction', 'llm_oobabooga_instruction', 'process_list_of_prompts']
+2024-09-16 00:30:10 - on_scenario_change triggered with var_name=scenario, var_value=xCocktail
+2024-09-16 00:30:10 - Error changing scenario: xCocktail
+2024-09-16 00:30:16 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-16 00:30:16 - Data nodes updated: None
+2024-09-16 00:30:17 - on_data_node_change triggered with var_name=scenario, var_value=xCocktail > prompt
+2024-09-16 00:30:17 - Data nodes updated: xCocktail > prompt
+2024-09-16 00:30:21 - on_data_node_change triggered with var_name=scenario, var_value=xCocktail > response_data
+2024-09-16 00:30:21 - Data nodes updated: xCocktail > response_data
+2024-09-16 00:30:22 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-16 00:30:22 - Data nodes updated: None
+2024-09-16 00:30:23 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-16 00:30:23 - Data nodes updated: None
+2024-09-16 00:30:24 - on_data_node_change triggered with var_name=scenario, var_value=xCocktail > conversation_id
+2024-09-16 00:30:24 - Data nodes updated: xCocktail > conversation_id
+2024-09-16 00:31:21 - Initializing application state.
+2024-09-16 00:31:21 - Loading scenarios.
+2024-09-16 00:31:21 - Loaded scenarios: ['default', 'llm_ollama_instruction', 'llm_oobabooga_instruction', 'process_list_of_prompts']
+2024-09-16 00:31:23 - on_scenario_change triggered with var_name=scenario, var_value=xCocktail
+2024-09-16 00:31:23 - Error changing scenario: xCocktail
+2024-09-16 00:31:25 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-16 00:31:25 - Data nodes updated: None
+2024-09-16 00:31:25 - on_data_node_change triggered with var_name=scenario, var_value=xCocktail > prompt
+2024-09-16 00:31:26 - Data nodes updated: xCocktail > prompt
+2024-09-16 00:33:38 - Initializing application state.
+2024-09-16 00:33:38 - Loading scenarios.
+2024-09-16 00:33:38 - Loaded scenarios: ['default', 'llm_ollama_instruction', 'llm_oobabooga_instruction', 'process_list_of_prompts']
+2024-09-16 00:33:42 - on_scenario_change triggered with var_name=scenario, var_value=xCocktail
+2024-09-16 00:33:42 - Error changing scenario: xCocktail
+2024-09-16 00:33:45 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-16 00:33:45 - Data nodes updated: None
+2024-09-16 00:33:48 - on_data_node_change triggered with var_name=scenario, var_value=xCocktail > conversation_id
+2024-09-16 00:33:48 - Data nodes updated: xCocktail > conversation_id
+2024-09-16 00:33:48 - on_data_node_change triggered with var_name=scenario, var_value=xCocktail > prompt
+2024-09-16 00:33:48 - Data nodes updated: xCocktail > prompt
+2024-09-16 00:33:49 - on_data_node_change triggered with var_name=scenario, var_value=xCocktail > response_data
+2024-09-16 00:33:49 - Data nodes updated: xCocktail > response_data
+2024-09-16 00:36:39 - on_data_node_change triggered with var_name=scenario, var_value=xCocktail > conversation_id
+2024-09-16 00:36:39 - Data nodes updated: xCocktail > conversation_id
+2024-09-16 00:36:40 - on_data_node_change triggered with var_name=scenario, var_value=xCocktail > prompt
+2024-09-16 00:36:40 - Data nodes updated: xCocktail > prompt
+2024-09-16 00:36:41 - on_data_node_change triggered with var_name=scenario, var_value=xCocktail > response_data
+2024-09-16 00:36:41 - Data nodes updated: xCocktail > response_data
+2024-09-16 00:36:42 - on_data_node_change triggered with var_name=scenario, var_value=xCocktail > conversation_id
+2024-09-16 00:36:42 - Data nodes updated: xCocktail > conversation_id
+2024-09-16 00:36:43 - on_data_node_change triggered with var_name=scenario, var_value=xCocktail > prompt
+2024-09-16 00:36:43 - Data nodes updated: xCocktail > prompt
+2024-09-16 00:36:43 - on_data_node_change triggered with var_name=scenario, var_value=xCocktail > response_data
+2024-09-16 00:36:43 - Data nodes updated: xCocktail > response_data
+2024-09-16 00:37:41 - Initializing application state.
+2024-09-16 00:37:41 - Loading scenarios.
+2024-09-16 00:37:41 - Loaded scenarios: ['default', 'llm_ollama_instruction', 'llm_oobabooga_instruction', 'process_list_of_prompts']
+2024-09-16 00:37:47 - on_scenario_change triggered with var_name=scenario, var_value=xCocktail
+2024-09-16 00:37:47 - Error changing scenario: xCocktail
+2024-09-16 00:37:52 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-16 00:37:52 - Data nodes updated: None
+2024-09-16 00:37:53 - on_data_node_change triggered with var_name=scenario, var_value=xCocktail > prompt
+2024-09-16 00:37:53 - Data nodes updated: xCocktail > prompt
+2024-09-16 00:37:54 - on_data_node_change triggered with var_name=scenario, var_value=xCocktail > conversation_id
+2024-09-16 00:37:55 - Data nodes updated: xCocktail > conversation_id
+2024-09-16 00:37:55 - on_data_node_change triggered with var_name=scenario, var_value=xCocktail > response_data
+2024-09-16 00:37:55 - Data nodes updated: xCocktail > response_data
+2024-09-16 00:38:21 - Initializing application state.
+2024-09-16 00:38:21 - Loading scenarios.
+2024-09-16 00:38:21 - Loaded scenarios: ['default', 'llm_ollama_instruction', 'llm_oobabooga_instruction', 'process_list_of_prompts']
+2024-09-16 00:38:24 - on_scenario_change triggered with var_name=scenario, var_value=xCocktail
+2024-09-16 00:38:24 - Error changing scenario: xCocktail
+2024-09-16 00:38:26 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-16 00:38:26 - Data nodes updated: None
+2024-09-16 00:38:27 - on_data_node_change triggered with var_name=scenario, var_value=xCocktail > conversation_id
+2024-09-16 00:38:27 - Data nodes updated: xCocktail > conversation_id
+2024-09-16 00:39:10 - Initializing application state.
+2024-09-16 00:39:10 - Loading scenarios.
+2024-09-16 00:39:10 - Loaded scenarios: ['default', 'llm_ollama_instruction', 'llm_oobabooga_instruction', 'process_list_of_prompts']
+2024-09-16 00:39:11 - on_scenario_change triggered with var_name=scenario, var_value=xCocktail
+2024-09-16 00:39:11 - Error changing scenario: xCocktail
+2024-09-16 00:39:13 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-16 00:39:13 - Data nodes updated: None
+2024-09-16 00:39:14 - on_data_node_change triggered with var_name=scenario, var_value=xCocktail > conversation_id
+2024-09-16 00:39:14 - Data nodes updated: xCocktail > conversation_id
+2024-09-16 00:39:43 - Initializing application state.
+2024-09-16 00:39:43 - Loading scenarios.
+2024-09-16 00:39:43 - Loaded scenarios: ['default', 'llm_ollama_instruction', 'llm_oobabooga_instruction', 'process_list_of_prompts']
+2024-09-16 00:39:45 - on_scenario_change triggered with var_name=scenario, var_value=xCocktail
+2024-09-16 00:39:45 - Error changing scenario: xCocktail
+2024-09-16 00:39:49 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-16 00:39:49 - Data nodes updated: None
+2024-09-16 00:39:49 - on_data_node_change triggered with var_name=scenario, var_value=xCocktail > conversation_id
+2024-09-16 00:39:49 - Data nodes updated: xCocktail > conversation_id
+2024-09-16 00:40:08 - Initializing application state.
+2024-09-16 00:40:08 - Loading scenarios.
+2024-09-16 00:40:08 - Loaded scenarios: ['default', 'llm_ollama_instruction', 'llm_oobabooga_instruction', 'process_list_of_prompts']
+2024-09-16 00:40:09 - on_scenario_change triggered with var_name=scenario, var_value=xCocktail
+2024-09-16 00:40:09 - Error changing scenario: xCocktail
+2024-09-16 00:40:12 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-16 00:40:12 - Data nodes updated: None
+2024-09-16 00:40:12 - on_data_node_change triggered with var_name=scenario, var_value=xCocktail > conversation_id
+2024-09-16 00:40:12 - Data nodes updated: xCocktail > conversation_id
+2024-09-16 00:43:39 - Initializing application state.
+2024-09-16 00:43:39 - Loading scenarios.
+2024-09-16 00:43:39 - Loaded scenarios: ['default', 'llm_ollama_instruction', 'llm_oobabooga_instruction', 'process_list_of_prompts']
+2024-09-16 00:43:43 - Initializing application state.
+2024-09-16 00:43:43 - Loading scenarios.
+2024-09-16 00:43:43 - Loaded scenarios: ['default', 'llm_ollama_instruction', 'llm_oobabooga_instruction', 'process_list_of_prompts']
+2024-09-16 00:43:49 - on_scenario_change triggered with var_name=scenario, var_value=xCocktail
+2024-09-16 00:43:49 - Error changing scenario: xCocktail
+2024-09-16 00:43:51 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-16 00:43:51 - Data nodes updated: None
+2024-09-16 00:43:52 - on_data_node_change triggered with var_name=scenario, var_value=xCocktail > prompt
+2024-09-16 00:43:52 - Data nodes updated: xCocktail > prompt
+2024-09-16 00:45:47 - Initializing application state.
+2024-09-16 00:45:47 - Loading scenarios.
+2024-09-16 00:45:47 - Loaded scenarios: ['default', 'llm_ollama_instruction', 'llm_oobabooga_instruction', 'process_list_of_prompts']
+2024-09-16 00:46:34 - Initializing application state.
+2024-09-16 00:46:34 - Loading scenarios.
+2024-09-16 00:46:34 - Loaded scenarios: ['default', 'llm_ollama_instruction', 'llm_oobabooga_instruction', 'process_list_of_prompts']
+2024-09-16 00:46:55 - on_scenario_change triggered with var_name=scenario, var_value=xCocktail
+2024-09-16 00:46:55 - Error changing scenario: xCocktail
+2024-09-16 00:46:57 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-16 00:46:57 - Data nodes updated: None
+2024-09-16 00:46:57 - on_data_node_change triggered with var_name=scenario, var_value=xCocktail > conversation_id
+2024-09-16 00:46:57 - Data nodes updated: xCocktail > conversation_id
+2024-09-16 00:48:32 - Initializing application state.
+2024-09-16 00:48:32 - Loading scenarios.
+2024-09-16 00:48:32 - Loaded scenarios: ['default', 'llm_ollama_instruction', 'llm_oobabooga_instruction', 'process_list_of_prompts']
+2024-09-16 00:48:37 - on_scenario_change triggered with var_name=scenario, var_value=xCocktail
+2024-09-16 00:48:37 - Error changing scenario: xCocktail
+2024-09-16 00:49:17 - Initializing application state.
+2024-09-16 00:49:17 - Loading scenarios.
+2024-09-16 00:49:17 - Loaded scenarios: ['default', 'llm_ollama_instruction', 'llm_oobabooga_instruction', 'process_list_of_prompts']
+2024-09-16 00:49:20 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-16 00:49:20 - Data nodes updated: None
+2024-09-16 00:49:21 - on_data_node_change triggered with var_name=scenario, var_value=xCocktail > conversation_id
+2024-09-16 00:49:21 - Data nodes updated: xCocktail > conversation_id
+2024-09-16 00:49:22 - on_data_node_change triggered with var_name=scenario, var_value=xCocktail > response_data
+2024-09-16 00:49:22 - Data nodes updated: xCocktail > response_data
+2024-09-16 00:49:22 - on_data_node_change triggered with var_name=scenario, var_value=xCocktail > prompt
+2024-09-16 00:49:22 - Data nodes updated: xCocktail > prompt
+2024-09-16 00:49:23 - on_data_node_change triggered with var_name=scenario, var_value=xCocktail > conversation_id
+2024-09-16 00:49:23 - Data nodes updated: xCocktail > conversation_id
+2024-09-16 00:49:32 - on_scenario_change triggered with var_name=scenario, var_value=xCocktail
+2024-09-16 00:49:32 - Error changing scenario: xCocktail
+2024-09-16 00:52:38 - Initializing application state.
+2024-09-16 00:52:38 - Loading scenarios.
+2024-09-16 00:52:38 - Loaded scenarios: ['default', 'llm_ollama_instruction', 'llm_oobabooga_instruction', 'process_list_of_prompts']
+2024-09-16 00:52:41 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-16 00:52:41 - Data nodes updated: None
+2024-09-16 00:52:42 - on_data_node_change triggered with var_name=scenario, var_value=xCocktail > prompt
+2024-09-16 00:52:42 - Data nodes updated: xCocktail > prompt
+2024-09-16 00:52:43 - on_scenario_change triggered with var_name=scenario, var_value=xCocktail
+2024-09-16 00:52:43 - Error changing scenario: xCocktail
+2024-09-16 00:53:12 - Initializing application state.
+2024-09-16 00:53:12 - Loading scenarios.
+2024-09-16 00:53:12 - Loaded scenarios: ['default', 'llm_ollama_instruction', 'llm_oobabooga_instruction', 'process_list_of_prompts']
+2024-09-16 00:53:16 - on_scenario_change triggered with var_name=scenario, var_value=xCocktail
+2024-09-16 00:53:16 - Error changing scenario: xCocktail
+2024-09-16 00:53:19 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-16 00:53:19 - Data nodes updated: None
+2024-09-16 00:53:19 - on_data_node_change triggered with var_name=scenario, var_value=xCocktail > response_data
+2024-09-16 00:53:19 - Data nodes updated: xCocktail > response_data
+2024-09-16 00:58:25 - on_scenario_change triggered with var_name=scenario, var_value=xCocktail
+2024-09-16 00:58:25 - Error changing scenario: xCocktail
+2024-09-16 00:58:27 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-16 00:58:27 - Data nodes updated: None
+2024-09-16 00:58:28 - on_data_node_change triggered with var_name=scenario, var_value=xCocktail > prompt
+2024-09-16 00:58:28 - Data nodes updated: xCocktail > prompt
+2024-09-16 00:58:29 - on_data_node_change triggered with var_name=scenario, var_value=xCocktail > conversation_id
+2024-09-16 00:58:29 - Data nodes updated: xCocktail > conversation_id
+2024-09-16 00:58:32 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-16 00:58:32 - Data nodes updated: None
+2024-09-16 00:58:33 - on_data_node_change triggered with var_name=scenario, var_value=xCocktail > prompt
+2024-09-16 00:58:33 - Data nodes updated: xCocktail > prompt
+2024-09-16 00:58:34 - on_scenario_change triggered with var_name=scenario, var_value=xCocktail
+2024-09-16 00:58:34 - Error changing scenario: xCocktail
+2024-09-16 00:59:29 - Initializing application state.
+2024-09-16 00:59:29 - Loading scenarios.
+2024-09-16 00:59:29 - Loaded scenarios: ['default', 'llm_ollama_instruction', 'llm_oobabooga_instruction', 'process_list_of_prompts']
+2024-09-16 00:59:32 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-16 00:59:32 - Data nodes updated: None
+2024-09-16 00:59:33 - on_data_node_change triggered with var_name=scenario, var_value=xCocktail > prompt
+2024-09-16 00:59:33 - Data nodes updated: xCocktail > prompt
+2024-09-16 00:59:33 - on_data_node_change triggered with var_name=scenario, var_value=xCocktail > conversation_id
+2024-09-16 00:59:33 - Data nodes updated: xCocktail > conversation_id
+2024-09-16 00:59:34 - on_data_node_change triggered with var_name=scenario, var_value=xCocktail > response_data
+2024-09-16 00:59:34 - Data nodes updated: xCocktail > response_data
+2024-09-16 00:59:36 - on_scenario_change triggered with var_name=scenario, var_value=xCocktail
+2024-09-16 00:59:36 - Error changing scenario: xCocktail
+2024-09-16 01:01:24 - Initializing application state.
+2024-09-16 01:01:24 - Loading scenarios.
+2024-09-16 01:01:24 - Loaded scenarios: ['default', 'llm_ollama_instruction', 'llm_oobabooga_instruction', 'process_list_of_prompts']
+2024-09-16 01:01:27 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-16 01:01:27 - Data nodes updated: None
+2024-09-16 01:01:28 - on_data_node_change triggered with var_name=scenario, var_value=xCocktail > prompt
+2024-09-16 01:01:28 - Data nodes updated: xCocktail > prompt
+2024-09-16 01:01:29 - on_scenario_change triggered with var_name=scenario, var_value=xCocktail
+2024-09-16 01:01:29 - Error changing scenario: xCocktail
+2024-09-16 01:03:47 - Initializing application state.
+2024-09-16 01:03:47 - Loading scenarios.
+2024-09-16 01:03:47 - Loaded scenarios: ['default', 'llm_ollama_instruction', 'llm_oobabooga_instruction', 'process_list_of_prompts']
+2024-09-16 01:03:48 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-16 01:03:48 - Data nodes updated: None
+2024-09-16 01:03:49 - on_data_node_change triggered with var_name=scenario, var_value=xCocktail > prompt
+2024-09-16 01:03:49 - Data nodes updated: xCocktail > prompt
+2024-09-16 01:03:50 - on_data_node_change triggered with var_name=scenario, var_value=xCocktail > response_data
+2024-09-16 01:03:50 - Data nodes updated: xCocktail > response_data
+2024-09-16 01:04:29 - Initializing application state.
+2024-09-16 01:04:29 - Loading scenarios.
+2024-09-16 01:04:29 - Loaded scenarios: ['default', 'llm_ollama_instruction', 'llm_oobabooga_instruction', 'process_list_of_prompts']
+2024-09-16 01:04:30 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-16 01:04:30 - Data nodes updated: None
+2024-09-16 01:04:31 - on_data_node_change triggered with var_name=scenario, var_value=xCocktail > conversation_id
+2024-09-16 01:04:31 - Data nodes updated: xCocktail > conversation_id
+2024-09-16 01:04:36 - on_scenario_change triggered with var_name=scenario, var_value=xCocktail
+2024-09-16 01:04:36 - Error changing scenario: xCocktail
+2024-09-16 01:07:11 - Initializing application state.
+2024-09-16 01:07:11 - Loading scenarios.
+2024-09-16 01:07:11 - Loaded scenarios: ['default', 'llm_ollama_instruction', 'llm_oobabooga_instruction', 'process_list_of_prompts']
+2024-09-16 01:07:15 - on_scenario_change triggered with var_name=scenario, var_value=xCocktail
+2024-09-16 01:07:15 - Error changing scenario: xCocktail
+2024-09-16 01:07:16 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-16 01:07:16 - Data nodes updated: None
+2024-09-16 01:07:17 - on_data_node_change triggered with var_name=scenario, var_value=xCocktail > prompt
+2024-09-16 01:07:17 - Data nodes updated: xCocktail > prompt
+2024-09-16 01:07:58 - Initializing application state.
+2024-09-16 01:07:58 - Loading scenarios.
+2024-09-16 01:07:58 - Loaded scenarios: ['default', 'llm_ollama_instruction', 'llm_oobabooga_instruction', 'process_list_of_prompts']
+2024-09-16 01:08:21 - Initializing application state.
+2024-09-16 01:08:21 - Loading scenarios.
+2024-09-16 01:08:21 - Loaded scenarios: ['default', 'llm_ollama_instruction', 'llm_oobabooga_instruction', 'process_list_of_prompts']
+2024-09-16 01:08:23 - on_scenario_change triggered with var_name=scenario, var_value=xCocktail
+2024-09-16 01:08:23 - Error changing scenario: xCocktail
+2024-09-16 01:08:54 - Initializing application state.
+2024-09-16 01:08:54 - Loading scenarios.
+2024-09-16 01:08:54 - Loaded scenarios: ['default', 'llm_ollama_instruction', 'llm_oobabooga_instruction', 'process_list_of_prompts']
+2024-09-16 01:08:57 - on_scenario_change triggered with var_name=scenario, var_value=xCocktail
+2024-09-16 01:08:57 - Error changing scenario: xCocktail
+2024-09-16 01:09:19 - Initializing application state.
+2024-09-16 01:09:19 - Loading scenarios.
+2024-09-16 01:09:19 - Loaded scenarios: ['default', 'llm_ollama_instruction', 'llm_oobabooga_instruction', 'process_list_of_prompts']
+2024-09-16 01:09:49 - Initializing application state.
+2024-09-16 01:09:49 - Loading scenarios.
+2024-09-16 01:09:49 - Loaded scenarios: ['default', 'llm_ollama_instruction', 'llm_oobabooga_instruction', 'process_list_of_prompts']
+2024-09-16 01:09:53 - on_scenario_change triggered with var_name=scenario, var_value=xCocktail
+2024-09-16 01:09:53 - Error changing scenario: xCocktail
+2024-09-16 01:12:01 - Initializing application state.
+2024-09-16 01:12:01 - Loading scenarios.
+2024-09-16 01:12:01 - Loaded scenarios: ['default', 'llm_ollama_instruction', 'llm_oobabooga_instruction', 'process_list_of_prompts']
+2024-09-16 01:12:04 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-16 01:12:04 - Data nodes updated: None
+2024-09-16 01:12:05 - on_scenario_change triggered with var_name=scenario, var_value=xCocktail
+2024-09-16 01:12:05 - Error changing scenario: xCocktail
+2024-09-16 01:12:27 - Initializing application state.
+2024-09-16 01:12:27 - Loading scenarios.
+2024-09-16 01:12:27 - Loaded scenarios: ['default', 'llm_ollama_instruction', 'llm_oobabooga_instruction', 'process_list_of_prompts']
+2024-09-16 01:12:39 - Initializing application state.
+2024-09-16 01:12:39 - Loading scenarios.
+2024-09-16 01:12:39 - Loaded scenarios: ['default', 'llm_ollama_instruction', 'llm_oobabooga_instruction', 'process_list_of_prompts']
+2024-09-16 01:13:01 - Initializing application state.
+2024-09-16 01:13:01 - Loading scenarios.
+2024-09-16 01:13:01 - Loaded scenarios: ['default', 'llm_ollama_instruction', 'llm_oobabooga_instruction', 'process_list_of_prompts']
+2024-09-16 01:13:03 - on_scenario_change triggered with var_name=scenario, var_value=xCocktail
+2024-09-16 01:13:03 - Error changing scenario: xCocktail
+2024-09-16 01:13:07 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-16 01:13:07 - Data nodes updated: None
+2024-09-16 01:13:07 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-16 01:13:07 - Data nodes updated: None
+2024-09-16 01:13:08 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-16 01:13:08 - Data nodes updated: None
+2024-09-16 01:14:45 - Initializing application state.
+2024-09-16 01:14:45 - Loading scenarios.
+2024-09-16 01:14:45 - Loaded scenarios: ['default', 'llm_ollama_instruction', 'llm_oobabooga_instruction', 'process_list_of_prompts']
+2024-09-16 01:15:02 - Initializing application state.
+2024-09-16 01:15:02 - Loading scenarios.
+2024-09-16 01:15:02 - Loaded scenarios: ['default', 'llm_ollama_instruction', 'llm_oobabooga_instruction', 'process_list_of_prompts']
+2024-09-16 01:15:15 - on_scenario_change triggered with var_name=scenario, var_value=xCocktail
+2024-09-16 01:15:15 - Error changing scenario: xCocktail
+2024-09-16 01:15:22 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-16 01:15:22 - Data nodes updated: None
+2024-09-16 01:15:22 - on_data_node_change triggered with var_name=scenario, var_value=xCocktail > conversation_id
+2024-09-16 01:15:22 - Data nodes updated: xCocktail > conversation_id
