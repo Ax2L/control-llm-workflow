@@ -1,14 +1,127 @@
-[2024-09-15 10:51:23][Taipy][INFO] Loading configuration. Filename: 'config.toml'
-[2024-09-15 10:51:23][Taipy][INFO] Configuration 'config.toml' successfully loaded.
-[2024-09-15 10:51:23][Taipy][INFO]  * Server starting on http://127.0.0.1:5001
+[2024-09-15 13:32:28][Taipy][INFO] Loading configuration. Filename: 'config.toml'
+[2024-09-15 13:32:28][Taipy][INFO] Configuration 'config.toml' successfully loaded.
+[2024-09-15 13:32:28][Taipy][INFO]  * Server starting on http://127.0.0.1:5001
  * Serving Flask app 'Taipy'
  * Debug mode: on
-[2024-09-15 10:51:26][Taipy][INFO] Loading configuration. Filename: 'config.toml'
-[2024-09-15 10:51:26][Taipy][INFO] Configuration 'config.toml' successfully loaded.
-[2024-09-15 10:51:26][Taipy][INFO]  * Server reloaded on http://127.0.0.1:5001
-2024-09-15 10:51:26 - Initializing application state.
-2024-09-15 10:51:40 - on_data_node_change triggered with var_name=scenario, var_value=None
-2024-09-15 10:51:41 - on_data_node_change triggered with var_name=scenario, var_value=None
-2024-09-15 10:51:44 - on_data_node_change triggered with var_name=scenario, var_value=None
-2024-09-15 10:51:47 - on_data_node_change triggered with var_name=scenario, var_value=None
-[2024-09-15 10:53:06][Taipy][WARNING] JOB_oobabooga_instruction_ef4a4ada-30d7-4b78-9be8-85650111c2d6 is not in the blocked list anymore.
+[2024-09-15 13:32:32][Taipy][INFO] Loading configuration. Filename: 'config.toml'
+[2024-09-15 13:32:32][Taipy][INFO] Configuration 'config.toml' successfully loaded.
+[2024-09-15 13:32:32][Taipy][INFO]  * Server reloaded on http://127.0.0.1:5001
+2024-09-15 13:32:33 - Initializing application state.
+[2024-09-15 13:34:37][Taipy][INFO] Loading configuration. Filename: 'config.toml'
+[2024-09-15 13:34:37][Taipy][INFO] Configuration 'config.toml' successfully loaded.
+[2024-09-15 13:34:37][Taipy][INFO]  * Server reloaded on http://127.0.0.1:5001
+[2024-09-15 13:34:52][Taipy][INFO] Loading configuration. Filename: 'config.toml'
+[2024-09-15 13:34:53][Taipy][INFO] Configuration 'config.toml' successfully loaded.
+[2024-09-15 13:34:53][Taipy][INFO]  * Server reloaded on http://127.0.0.1:5001
+2024-09-15 13:34:53 - Initializing application state.
+[2024-09-15 13:35:45][Taipy][INFO] Loading configuration. Filename: 'config.toml'
+[2024-09-15 13:35:45][Taipy][INFO] Configuration 'config.toml' successfully loaded.
+[2024-09-15 13:35:45][Taipy][INFO]  * Server reloaded on http://127.0.0.1:5001
+[2024-09-15 13:36:46][Taipy][INFO] Loading configuration. Filename: 'config.toml'
+[2024-09-15 13:36:47][Taipy][INFO] Configuration 'config.toml' successfully loaded.
+[2024-09-15 13:36:47][Taipy][INFO]  * Server reloaded on http://127.0.0.1:5001
+2024-09-15 13:37:37 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-15 13:37:37 - on_data_node_change triggered with var_name=scenario, var_value=Ax2L > conversation_id
+[2024-09-15 13:37:52][Taipy][WARNING] JOB_oobabooga_instruction_ef4a4ada-30d7-4b78-9be8-85650111c2d6 is not in the blocked list anymore.
+[2024-09-15 13:39:27][Taipy][INFO] Loading configuration. Filename: 'config.toml'
+[2024-09-15 13:39:27][Taipy][INFO] Configuration 'config.toml' successfully loaded.
+[2024-09-15 13:39:27][Taipy][INFO]  * Server reloaded on http://127.0.0.1:5001
+2024-09-15 13:39:27 - Initializing application state.
+2024-09-15 13:45:57 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-15 13:45:58 - on_data_node_change triggered with var_name=scenario, var_value=llm_ollama_instruction > conversation_id
+2024-09-15 13:45:58 - on_data_node_change triggered with var_name=scenario, var_value=llm_ollama_instruction > response_data
+2024-09-15 13:45:59 - on_data_node_change triggered with var_name=scenario, var_value=llm_ollama_instruction > prompt
+2024-09-15 13:46:00 - on_data_node_change triggered with var_name=scenario, var_value=llm_ollama_instruction > model_name
+2024-09-15 13:46:01 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-15 13:46:02 - on_data_node_change triggered with var_name=scenario, var_value=Ax2L > conversation_id
+2024-09-15 13:46:02 - on_data_node_change triggered with var_name=scenario, var_value=Ax2L > prompt
+2024-09-15 13:46:03 - on_data_node_change triggered with var_name=scenario, var_value=Ax2L > prompt
+2024-09-15 13:46:03 - on_data_node_change triggered with var_name=scenario, var_value=Ax2L > response_data
+2024-09-15 13:46:06 - on_data_node_change triggered with var_name=scenario, var_value=Ax2L > conversation_id
+2024-09-15 13:46:08 - on_data_node_change triggered with var_name=scenario, var_value=Ax2L > prompt
+2024-09-15 13:46:11 - on_data_node_change triggered with var_name=scenario, var_value=llm_ollama_instruction > response_data
+2024-09-15 13:46:11 - on_data_node_change triggered with var_name=scenario, var_value=llm_ollama_instruction > conversation_id
+2024-09-15 13:46:12 - on_data_node_change triggered with var_name=scenario, var_value=llm_ollama_instruction > prompt
+2024-09-15 13:46:13 - on_data_node_change triggered with var_name=scenario, var_value=llm_ollama_instruction > model_name
+[2024-09-15 14:28:02][Taipy][INFO] Loading configuration. Filename: 'config.toml'
+[2024-09-15 14:28:03][Taipy][INFO] Configuration 'config.toml' successfully loaded.
+[2024-09-15 14:28:04][Taipy][INFO]  * Server reloaded on http://127.0.0.1:5001
+[2024-09-15 14:28:11][Taipy][INFO] Loading configuration. Filename: 'config.toml'
+[2024-09-15 14:28:11][Taipy][INFO] Configuration 'config.toml' successfully loaded.
+[2024-09-15 14:28:12][Taipy][INFO]  * Server reloaded on http://127.0.0.1:5001
+2024-09-15 14:28:12 - Initializing application state.
+[2024-09-15 14:29:10][Taipy][INFO] Loading configuration. Filename: 'config.toml'
+[2024-09-15 14:29:10][Taipy][INFO] Configuration 'config.toml' successfully loaded.
+[2024-09-15 14:29:11][Taipy][INFO]  * Server reloaded on http://127.0.0.1:5001
+2024-09-15 14:29:11 - Initializing application state.
+[2024-09-15 14:29:42][Taipy][INFO] Loading configuration. Filename: 'config.toml'
+[2024-09-15 14:29:42][Taipy][INFO] Configuration 'config.toml' successfully loaded.
+[2024-09-15 14:29:42][Taipy][INFO]  * Server reloaded on http://127.0.0.1:5001
+2024-09-15 14:29:43 - Initializing application state.
+[2024-09-15 14:32:11][Taipy][INFO] Loading configuration. Filename: 'config.toml'
+[2024-09-15 14:32:11][Taipy][INFO] Configuration 'config.toml' successfully loaded.
+[2024-09-15 14:32:11][Taipy][INFO]  * Server reloaded on http://127.0.0.1:5001
+[2024-09-15 14:32:30][Taipy][INFO] Loading configuration. Filename: 'config.toml'
+[2024-09-15 14:32:30][Taipy][INFO] Configuration 'config.toml' successfully loaded.
+[2024-09-15 14:32:30][Taipy][INFO]  * Server reloaded on http://127.0.0.1:5001
+[2024-09-15 14:32:39][Taipy][INFO] Loading configuration. Filename: 'config.toml'
+[2024-09-15 14:32:39][Taipy][INFO] Configuration 'config.toml' successfully loaded.
+[2024-09-15 14:32:39][Taipy][INFO]  * Server reloaded on http://127.0.0.1:5001
+[2024-09-15 14:32:58][Taipy][INFO] Loading configuration. Filename: 'config.toml'
+[2024-09-15 14:32:58][Taipy][INFO] Configuration 'config.toml' successfully loaded.
+[2024-09-15 14:32:58][Taipy][INFO]  * Server reloaded on http://127.0.0.1:5001
+[2024-09-15 14:33:26][Taipy][INFO] Loading configuration. Filename: 'config.toml'
+[2024-09-15 14:33:26][Taipy][INFO] Configuration 'config.toml' successfully loaded.
+[2024-09-15 14:33:26][Taipy][INFO]  * Server reloaded on http://127.0.0.1:5001
+[2024-09-15 14:33:36][Taipy][INFO] Loading configuration. Filename: 'config.toml'
+[2024-09-15 14:33:37][Taipy][INFO] Configuration 'config.toml' successfully loaded.
+[2024-09-15 14:33:37][Taipy][INFO]  * Server reloaded on http://127.0.0.1:5001
+2024-09-15 14:33:41 - Initializing application state.
+2024-09-15 14:34:09 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-15 14:34:10 - on_data_node_change triggered with var_name=scenario, var_value=Ax2L > prompt
+2024-09-15 14:34:11 - on_data_node_change triggered with var_name=scenario, var_value=Ax2L > conversation_id
+2024-09-15 14:34:12 - on_data_node_change triggered with var_name=scenario, var_value=Ax2L > response_data
+2024-09-15 14:34:15 - on_data_node_change triggered with var_name=scenario, var_value=Ax2L > prompt
+[2024-09-15 14:34:32][Taipy][INFO] Loading configuration. Filename: 'config.toml'
+[2024-09-15 14:34:32][Taipy][INFO] Configuration 'config.toml' successfully loaded.
+[2024-09-15 14:34:32][Taipy][INFO]  * Server reloaded on http://127.0.0.1:5001
+[2024-09-15 14:35:22][Taipy][INFO] Loading configuration. Filename: 'config.toml'
+[2024-09-15 14:35:23][Taipy][INFO] Configuration 'config.toml' successfully loaded.
+[2024-09-15 14:35:23][Taipy][INFO]  * Server reloaded on http://127.0.0.1:5001
+2024-09-15 14:35:26 - Initializing application state.
+[2024-09-15 14:36:22][Taipy][INFO] Loading configuration. Filename: 'config.toml'
+[2024-09-15 14:36:22][Taipy][INFO] Configuration 'config.toml' successfully loaded.
+[2024-09-15 14:36:22][Taipy][INFO]  * Server reloaded on http://127.0.0.1:5001
+2024-09-15 14:36:23 - Initializing application state.
+2024-09-15 14:37:15 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-15 14:37:16 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-15 14:37:16 - on_data_node_change triggered with var_name=scenario, var_value=llm_ollama_instruction > model_name
+2024-09-15 14:37:17 - on_data_node_change triggered with var_name=scenario, var_value=llm_ollama_instruction > conversation_id
+2024-09-15 14:37:18 - on_data_node_change triggered with var_name=scenario, var_value=Ax2L > response_data
+2024-09-15 14:37:18 - on_data_node_change triggered with var_name=scenario, var_value=Ax2L > conversation_id
+2024-09-15 14:37:45 - on_data_node_change triggered with var_name=scenario, var_value=llm_ollama_instruction > conversation_id
+2024-09-15 14:37:46 - on_data_node_change triggered with var_name=scenario, var_value=Ax2L > conversation_id
+[2024-09-15 14:47:38][Taipy][INFO] Loading configuration. Filename: 'config.toml'
+[2024-09-15 14:47:39][Taipy][INFO] Configuration 'config.toml' successfully loaded.
+[2024-09-15 14:47:39][Taipy][INFO]  * Server reloaded on http://127.0.0.1:5001
+2024-09-15 14:47:39 - Initializing application state.
+[2024-09-15 14:51:32][Taipy][INFO] Loading configuration. Filename: 'config.toml'
+[2024-09-15 14:51:32][Taipy][INFO] Configuration 'config.toml' successfully loaded.
+[2024-09-15 14:51:32][Taipy][INFO]  * Server reloaded on http://127.0.0.1:5001
+2024-09-15 14:51:40 - Initializing application state.
+2024-09-15 14:53:11 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-15 14:53:11 - on_data_node_change triggered with var_name=scenario, var_value=Ax2L > prompt
+2024-09-15 14:53:14 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-15 14:53:14 - on_data_node_change triggered with var_name=scenario, var_value=llm_ollama_instruction > response_data
+2024-09-15 14:53:15 - on_data_node_change triggered with var_name=scenario, var_value=llm_ollama_instruction > prompt
+[2024-09-15 15:00:30][Taipy][INFO] Loading configuration. Filename: 'config.toml'
+[2024-09-15 15:00:30][Taipy][INFO] Configuration 'config.toml' successfully loaded.
+[2024-09-15 15:00:31][Taipy][INFO]  * Server reloaded on http://127.0.0.1:5001
+2024-09-15 15:01:51 - Initializing application state.
+2024-09-15 15:02:03 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-15 15:02:04 - on_data_node_change triggered with var_name=scenario, var_value=llm_ollama_instruction > response_data
+2024-09-15 15:02:05 - on_data_node_change triggered with var_name=scenario, var_value=llm_ollama_instruction > prompt
+2024-09-15 15:02:07 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-15 15:02:16 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-15 15:02:17 - on_data_node_change triggered with var_name=scenario, var_value=llm_ollama_instruction > response_data
+2024-09-15 15:02:18 - on_data_node_change triggered with var_name=scenario, var_value=llm_ollama_instruction > prompt

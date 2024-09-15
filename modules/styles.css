@@ -20,8 +20,9 @@
     --background-settings: #1f2f44;
     --background-settings-alt: #212A34;
     --background-settings-2: #1f2f44;
-    --background-primary: #1E1611;
+    --background-primary: #000000;
     --background-secondary: #212A34;
+    --background-transparent: #212A3400;
     --background-modifier-hover: rgba(33, 181, 156, 0.15);
     --background-modifier-message: #1f2f44;
     --link-external-color: #FFA500;
@@ -50,20 +51,20 @@
 
 /* General styles */
 body {
-    background-color: var(--background-primary);
-    background-color: #000000;
+    background-color: none;
     color: var(--text-accent);
     margin: 0 !important;
+    min-height: 100%;
 }
 
 .status.error {
-    background-color: #f2dede;
-    color: #a94442;
+    background-color: var(--color-error-light);
+    color: var(--color-error);
 }
 
 .discussed {
-    background-color: #d9edf7 !important;
-    color: #5cf463 !important;
+    background-color: var(--color-discussed-light) !important;
+    color: var(--color-discussed) !important;
 }
 
 .headernavibar {
@@ -79,26 +80,25 @@ body {
 .headernavibar_fetch_tasks {
     background-color: var(--background-secondary);
     color: var(--text-accent);
-    border: 0.11px dotted rgba(255, 255, 255, 0.2);
-    border-radius: 10px;
-    padding: 10px;
+    border: 0.11px dotted var(--border-color);
+    border-radius: var(--border-radius);
+    padding: var(--padding);
     text-align: center;
-    font-size: 12px;
+    font-size: var(--font-size-small);
     font-weight: bold;
-    margin-top: 10px;
+    margin-top: var(--margin-top);
 }
 
 .headernavibar_fetch_tasks:hover {
-    background-color: #083d6b;
+    background-color: var(--color-secondary);
 }
 
 .headernavibar_fetch_tasks button {
     background-color: var(--background-tertiary);
-
 }
 
 .headernavibar_fetch_tasks button:hover {
-    background-color: #083d6b;
+    background-color: var(--color-secondary);
 }
 
 .headernavibar_tasklist {
@@ -113,120 +113,119 @@ body {
 
 .fetch-tasks-button {
     background-color: var(--background-tertiary);
-
 }
 
 .fetch-tasks-button:hover {
-    background-color: #083d6b;
+    background-color: var(--color-secondary);
 }
 
 .conversation-step-1 {
-    background-color: #3858ba26;
+    background-color: var(--color-step-1);
     color: var(--text-accent);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(var(--blur));
+    -webkit-backdrop-filter: blur(var(--blur));
 }
 
 .conversation-step-2 {
-    background-color: #3895ba26;
+    background-color: var(--color-step-2);
     color: var(--text-accent);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(var(--blur));
+    -webkit-backdrop-filter: blur(var(--blur));
 }
 
 .conversation-step-3 {
-    background-color: #38ba9c26;
+    background-color: var(--color-step-3);
     color: var(--text-accent);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(var(--blur));
+    -webkit-backdrop-filter: blur(var(--blur));
 }
 
 .headernavibar_context {
-    background-color: #3C3F58;
+    background-color: var(--background-tertiary);
     color: var(--text-accent);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(var(--blur));
+    -webkit-backdrop-filter: blur(var(--blur));
 }
 
 .headernavibar_context .MuiAccordionDetails-root {
-    background-color: #1F1F1F;
+    background-color: var(--background-accordion);
     color: var(--text-accent);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    background-image: linear-gradient(#1F1F1F, #1F1F1F00);
+    backdrop-filter: blur(var(--blur));
+    -webkit-backdrop-filter: blur(var(--blur));
+    background-image: linear-gradient(var(--background-accordion), var(--background-accordion-transparent));
 }
 
 .headerlogo {
-    margin-top: none;
-    margin-bottom: none;
-    padding: 0;
-    margin-left: 0;
-    margin-right: 0;
-    font-size: 15px;
+    margin-top: var(--margin-none);
+    margin-bottom: var(--margin-none);
+    padding: var(--padding-none);
+    margin-left: var(--margin-none);
+    margin-right: var(--margin-none);
+    font-size: var(--font-size-small);
     font-weight: bold;
 }
 
 .header2logo {
-    margin-top: -30px;
-    margin-bottom: 0px;
-    padding: 0;
-    margin-left: 0;
-    margin-right: 0;
-    font-size: 15px;
+    margin-top: var(--margin-negative);
+    margin-bottom: var(--margin-none);
+    padding: var(--padding-none);
+    margin-left: var(--margin-none);
+    margin-right: var(--margin-none);
+    font-size: var(--font-size-small);
     font-weight: bold;
 }
 
 .conversation-step-response-1,
 .conversation-step-response-2,
 .conversation-step-response-3 {
-    background-color: none;
+    background-color: var(--background-none);
     color: var(--text-accent);
     text-align: left;
-    padding: 5px;
+    padding: var(--padding);
 }
 
 .conversation-step-input-1,
 .conversation-step-input-2,
 .conversation-step-input-3 {
-    color: #d4d4d499;
+    color: var(--color-input);
     text-align: center;
-    padding: 5px;
-    border-bottom: 2px solid rgba(27, 42, 52, 0.5);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
+    padding: var(--padding);
+    border-bottom: 2px solid var(--border-color-input);
+    backdrop-filter: blur(var(--blur));
+    -webkit-backdrop-filter: blur(var(--blur));
 }
 
 .conversation-step-prompt-1,
 .conversation-step-prompt-2,
 .conversation-step-prompt-3 {
-    color: #d4d4d499;
+    color: var(--color-prompt);
     text-align: left;
-    padding: 5px;
-    border-bottom: 2px solid rgba(20, 42, 52, 0.5);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
+    padding: var(--padding);
+    border-bottom: 2px solid var(--border-color-prompt);
+    backdrop-filter: blur(var(--blur));
+    -webkit-backdrop-filter: blur(var(--blur));
 }
 
 .conversation-step-output-1,
 .conversation-step-output-2,
 .conversation-step-output-3 {
-    color: #d4d4d499;
+    color: var(--color-output);
     text-align: center;
-    padding: 5px;
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
+    padding: var(--padding);
+    backdrop-filter: blur(var(--blur));
+    -webkit-backdrop-filter: blur(var(--blur));
 }
 
 .conversation-step-layout-1,
 .conversation-step-layout-2,
 .conversation-step-layout-3 {
-    background: radial-gradient(circle, rgba(27, 42, 52, 0.3) 50%, rgba(27, 42, 52, 0) 100%);
+    background: radial-gradient(circle, var(--background-layout) 50%, var(--background-layout-transparent) 100%);
     color: var(--text-accent);
     text-align: center;
-    padding: 5px;
-    margin-top: 10px;
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
+    padding: var(--padding);
+    margin-top: var(--margin-top);
+    backdrop-filter: blur(var(--blur));
+    -webkit-backdrop-filter: blur(var(--blur));
 }
 
 .MuiAccordionSummary-content {
@@ -234,17 +233,17 @@ body {
 }
 
 .sidebar {
-    background-color: transparent;
+    background-color: var(--background-transparent);
     color: var(--text-accent);
     min-height: 100%;
 }
 
 .secondary {
-    background-color: #10518C;
+    background-color: var(--color-secondary);
 }
 
 .secondary:hover {
-    background-color: #083d6b;
+    background-color: var(--color-secondary);
 }
 
 .card {
@@ -263,46 +262,67 @@ body {
 }
 
 .headernavibar_cards {
-    background-color: rgba(255, 255, 255, 0.041);
+    background-color: var(--background-cards);
     color: var(--text-accent);
-    backdrop-filter: blur(10px);
-    border: 0.11px dotted rgba(255, 255, 255, 0.2);
-    padding: 10px;
+    backdrop-filter: blur(var(--blur));
+    border: 0.11px dotted var(--border-color);
+    padding: var(--padding);
     text-align: center;
     height: 100%;
-    font-size: 20px;
+    font-size: var(--font-size-large);
     font-weight: bold;
 }
 
 .main-content {
-    background-color: none;
+    background-color: var(--background-none);
     color: var(--text-accent);
-    padding-right: 10px;
-    padding-top: 10px;
-    margin-top: 27px;
-    margin-right: 10px;
+    padding-right: var(--padding);
+    padding-top: var(--padding);
+    margin-top: var(--margin-top);
+    margin-right: var(--margin-right);
 }
 
 .conversation-step-1 .MuiAccordionDetails-root,
 .conversation-step-2 .MuiAccordionDetails-root,
 .conversation-step-3 .MuiAccordionDetails-root {
-    background-color: #1F1F1F;
+    background-color: var(--background-accordion);
     color: var(--text-accent);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    background-image: linear-gradient(#1F1F1F, #1F1F1F00);
+    backdrop-filter: blur(var(--blur));
+    -webkit-backdrop-filter: blur(var(--blur));
+    background-image: linear-gradient(var(--background-accordion), var(--background-accordion-transparent));
 }
 
 .headernavibar_workflow {
     background-color: var(--background-tertiary);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(var(--blur));
+    -webkit-backdrop-filter: blur(var(--blur));
 }
 
 .headernavibar_workflow .MuiAccordionDetails-root {
-    background-color: #1F1F1F;
+    background-color: var(--background-accordion);
     color: var(--text-accent);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    background-image: linear-gradient(#1F1F1F, #1F1F1F00);
+    backdrop-filter: blur(var(--blur));
+    -webkit-backdrop-filter: blur(var(--blur));
+    background-image: linear-gradient(var(--background-accordion), var(--background-accordion-transparent));
+}
+
+.context_container {
+    background-color: transparent;
+    color: var(--text-accent);
+    backdrop-filter: blur(var(--blur));
+    -webkit-backdrop-filter: blur(var(--blur));
+}
+
+.graph_container {
+    background-color: var(--background-transparent);
+    color: var(--text-accent);
+    backdrop-filter: blur(var(--blur));
+    -webkit-backdrop-filter: blur(var(--blur));
+}
+
+.scenario_selector_container {
+    background-color: var(--background-transparent);
+    color: var(--text-accent);
+    backdrop-filter: blur(var(--blur));
+    -webkit-backdrop-filter: blur(var(--blur));
 }
