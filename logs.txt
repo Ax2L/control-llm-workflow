@@ -1188,3 +1188,16 @@
 2024-09-16 01:15:22 - Data nodes updated: None
 2024-09-16 01:15:22 - on_data_node_change triggered with var_name=scenario, var_value=xCocktail > conversation_id
 2024-09-16 01:15:22 - Data nodes updated: xCocktail > conversation_id
+2024-09-16 03:00:44 - Initializing application state.
+2024-09-16 03:00:44 - Loading scenarios.
+2024-09-16 03:00:44 - Loaded scenarios: ['default', 'llm_ollama_instruction', 'llm_oobabooga_instruction', 'process_list_of_prompts']
+2024-09-16 03:00:48 - on_scenario_change triggered with var_name=scenario, var_value=xCocktail
+2024-09-16 03:00:48 - Error changing scenario: xCocktail
+2024-09-16 03:00:51 - on_data_node_change triggered with var_name=scenario, var_value=None
+2024-09-16 03:00:51 - Data nodes updated: None
+2024-09-16 03:00:52 - on_data_node_change triggered with var_name=scenario, var_value=xCocktail > prompt
+2024-09-16 03:00:52 - Data nodes updated: xCocktail > prompt
+2024-09-16 03:13:23 - on_data_node_change triggered with var_name=scenario, var_value=xCocktail > conversation_id
+2024-09-16 03:13:23 - Data nodes updated: xCocktail > conversation_id
+2024-09-16 03:13:24 - on_data_node_change triggered with var_name=scenario, var_value=xCocktail > response_data
+2024-09-16 03:13:24 - Data nodes updated: xCocktail > response_data
